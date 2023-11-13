@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+}
+
+header {
+    background-image: url('../IMG/acomodacao/Design\ sem\ nome\ \(2\).svg');
+    background-size: cover;
+    background-position: center;
+    height: 40em;
+    text-align: center;
+}
+
+#headerLogo {
+    display: flex;
+    align-items: start;
+    float: left;
+}
+
+.nomeIlhaUm {
+    display: flex;
+    color: aliceblue;
+}
+
+.textoImgInicio{
+    width: 100vw;
+
+}
+
+#textoInicialHeader{
+    width: 100%;
+    margin: 0;
+    height: 89vh;
+    display: flex;
+    justify-content: center;
+}
+
+.listaHeader {
+    display: flex;
+    justify-content: end;
+    column-gap: 1.8rem;
+    font-family: 'Playfair Display', serif;
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    list-style: none;
+}
+
+a {
+    text-decoration-line: none;
+    color: #F7F7F2;
+}
+
+main{
+    background-color: #003152 ;
+}
+
+#secaoUm{
+    display: flex;
+    height: 50vh;
+    flex-wrap: wrap;
+}
+
+#iconesUm {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.icons {
+    width: 70%;
+    height: 100%;
+}
+
+#descricaoUm{
+    width: 50%;
+}
+
+.descricaoPrimeiro{
+    text-align: center;
+    margin: 6%;
+}
