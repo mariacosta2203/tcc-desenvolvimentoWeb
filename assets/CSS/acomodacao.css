@@ -49,11 +49,8 @@ a {
     color: #F7F7F2;
 }
 
-main{
-    background-color: #003152 ;
-}
-
 #secaoUm{
+    background-color: #003152 ;
     display: flex;
     height: 50vh;
     flex-wrap: wrap;
@@ -77,4 +74,24 @@ main{
 .descricaoPrimeiro{
     text-align: center;
     margin: 6%;
+}
+
+#secaoImagens{
+    display: flex;
+    height: 40vh;
+    /* width:  100vw; */
+}
+
+#divSecaoImagem{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin: 0 auto;
+}
+
+.imagensQuartoUm{
+    padding: 2%;
+    display: inline;
+    width: 20vw;
+    height: 30vh;
 }
