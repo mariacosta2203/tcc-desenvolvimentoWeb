@@ -1,0 +1,25 @@
+#navbar {
+    background-image: url(background-header.jpg);
+    background-position: 140px;
+}
+
+.color {
+    color: #efb810;
+}
+
+.a {
+    text-decoration: none;
+    color: black;
+    border: 0.5px solid #000000;
+    border-radius: 30px;
+    padding: 3px;
+    font-size: 7.5px;
+    background-color: sil;
+    opacity: 0.5;
+    font-weight: 1.5em;
+}
+.a:hover {
+    background-color: rgb(49, 49, 49);
+    color: white; 
+    transition: 0.7s;
+}
