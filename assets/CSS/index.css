@@ -35,3 +35,25 @@
   background-color: rgb(233, 225, 188);
   margin-top: 100px;
 }
+
+#Excursões {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 20px;
+  
+}
+section {
+  width: 200px;
+  height: 150px;
+  padding-top: 50px;
+  /* overflow: auto; */
+  text-align: center;
+  justify-content: space-around;
+}
+
+#img {
+  width: 333px;
+  height: 338px;
+  border-radius: 2000px;
+}
