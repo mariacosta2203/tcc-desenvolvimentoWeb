@@ -1,10 +1,15 @@
-#navbar {
-  height: 50vh;
+header {
+  height: 60vh;
   background-image: url(mar.jpg);
-  background-position: 10px;
+  background-position: 1px;
   background-repeat: no-repeat;
   background-size: cover;
+  display: grid;
+  grid-template-columns: 55%, 15%, 15%, 15%;
+  grid-template-rows: 20%, 2fr;
+  column-gap: 10px;
 }
+
 
 .color {
   color: #efb810;
@@ -16,16 +21,37 @@
   border: 0.5px solid #000000;
   border-radius: 30px;
   padding: 3px;
-  font-size: 7.5px;
-  background-color: sil;
-  opacity: 0.5;
+  font-size: 1rem;
+  background-color: rgb(114, 112, 112);
+  opacity: 0.65;
   font-weight: 1.5em;
+  width: 5.5em;
+  height: 2.5em;
 }
+
 .a:hover {
   background-color: rgb(49, 49, 49);
   color: white;
-  transition: 0.7s;
+  transition: 0.5s;
 }
+#a {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  margin-right: -15rem;
+
+}
+
+#b {
+  grid-column: 3/4;
+  grid-row: 1/2;
+  margin-right: -15rem;
+}
+
+#c {
+  grid-column: 4/5;
+  grid-row: 1/2;
+}
+
 #logo {
   width: 700px;
   height: 300px;
@@ -43,6 +69,12 @@
   margin-left: 20px;
   
 }
+
+.img {
+  display: flex;
+  justify-content: space-between;
+}
+
 section {
   width: 200px;
   height: 150px;
