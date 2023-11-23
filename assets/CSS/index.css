@@ -1,4 +1,5 @@
 header {
+  display: grid;
   height: 60vh;
   background-image: url(mar.jpg);
   background-position: 1px;
