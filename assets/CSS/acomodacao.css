@@ -9,7 +9,7 @@
 
 @font-face {
     font-family: 'Adobe';
-    src: url('../fontes/adobe-caslon-regular.otf') format(opentype);
+    src: url('../fontes/NordMedium.ttf') format(truetype);
     font-weight: normal;
 }
 
@@ -18,7 +18,8 @@
 }
 
 header {
-    background-image: url('../IMG/acomodacao/Design\ sem\ nome\ \(2\).svg');
+    position: relative;
+    background-image: url('../IMG/acomodacao/headerquartoprincipal.svg');
     background-size: cover;
     background-position: center;
     height: 40em;
@@ -26,7 +27,7 @@ header {
 }
 
 main{
-    background-color: #003152;
+    background-color: #F7F7F2;
     margin: 0;
 }
 
@@ -59,24 +60,29 @@ main{
     display: flex;
     justify-content: end;
     column-gap: 1.8rem;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Adobe';
     font-size: 1.3rem;
     list-style: none;
     padding-top: 2rem;
     padding-right: 2rem;
 }
 
-a {
+li a {
     text-decoration-line: none;
     color: #F7F7F2;
 }
 
 #secaoUm{
-    background-color: #003152 ;     
+    background-color: #F7F7F2 ;     
     display: flex;
     height: 50vh;
     flex-wrap: wrap;
     margin: 0;
+}
+
+.imagensPrincipais{
+    width: 100%;
+
 }
 
 #iconesUm {
@@ -87,6 +93,7 @@ a {
 }
 
 .icons {
+    padding-top: 1.5rem;
     width: 70%;
     height: 100%;
 }
@@ -98,14 +105,11 @@ a {
 #divBotao{
     display: flex;
     justify-content: center;
-    
+    height: 4em;
 }
 
-.classBotao{
-    height: 8vh;
-    width: 10vw;
-    font-size: 25px;
-    font-family: 'Courier New', Courier, monospace;
+.btn btn-outline-warning{
+    padding-left: 15px;
 }
 
 .titulo{
@@ -118,8 +122,9 @@ a {
 
 .paragra{
     font-family: 'Adobe';
+    font-weight: bolder;
     font-size: 1.2em;
-    color: #F7F7F2;
+    color: #003152;
     margin: 5%;
 }
 
@@ -131,13 +136,15 @@ a {
 .SecaoImagemAnuncio{
     display: flex;
     justify-content: center;
-   
+    height: 20rem;
 }
 
-.divSecaoImagem{
+#divSecaoImagem{
     margin: 0;
     display: flex;
-    justify-content: center;
+    justify-items: center;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
 } 
 
 .imagensQuartoUm{
@@ -145,7 +152,7 @@ a {
     width: 20vw;
     height: 30vh;
     margin: auto;
-    padding: 20px;
+    padding: 10px;
     align-items: center;
     border-radius: 40px;
     opacity: 0.5; 
@@ -159,4 +166,46 @@ a {
 
 .imagensQuartos{
      width: 100%;
+}
+
+#rodape{
+    background-color: #003152;
+    height: 20em;
+}
+
+.imgfooter{
+    padding-top: 8%;
+    width: 15em;
+}
+
+.paragrafoFooter{
+    font-family: 'Adobe';
+    color: #F7F7F2;
+}
+
+.footerP{
+    font-family: 'Dourado';
+    padding-top: 5%;
+    color: #F7F7F2;
+    font-size: 3rem;
+    
+}
+
+.listaFooter{
+    list-style: none;
+    line-height: 3rem;
+    font-family: 'Adobe';
+}
+
+#iconsFooter{
+    text-align: center;
+    width: 12%;
+}
+
+#iconInsta{
+    width: 3.5rem;
+}
+
+.fi fi-brands-whatsapp{
+    color: #FF9F1C;
 }
