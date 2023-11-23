@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Tangerine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap');
+
+@font-face {
+    font-family: 'Dourado';
+    src: url('../fontes/pretaportercontrast-bold.ttf') format(truetype);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Adobe';
+    src: url('../fontes/NordMedium.ttf') format(truetype);
+    font-weight: normal;
+}
+
+* {
+    margin: 0;
+}
+
+header {
+    position: relative;
+    background-image: url('../IMG/acomodacao/headerquartoprincipal.svg');
+    background-size: cover;
+    background-position: center;
+    height: 40em;
+    text-align: center;
+}
+
+main{
+    background-color: #F7F7F2;
+    margin: 0;
+}
+
+#headerLogo {
+    display: flex;
+    align-items: start;
+    float: left;
+    padding-top: 1%;
+}
+
+.nomeIlhaUm {
+    display: flex;
+    color: aliceblue;
+}
+
+.textoImgInicio{
+    width: 100vw;
+
+}
+
+#textoInicialHeader{
+    width: 100%;
+    margin: 0;
+    height: 89vh;
+    display: flex;
+    justify-content: center;
+}
+
+.listaHeader {
+    display: flex;
+    justify-content: end;
+    column-gap: 1.8rem;
+    font-family: 'Adobe';
+    font-size: 1.3rem;
+    list-style: none;
+    padding-top: 2rem;
+    padding-right: 2rem;
+}
+
+li a {
+    text-decoration-line: none;
+    color: #F7F7F2;
+}
+
+#secaoUm{
+    background-color: #F7F7F2 ;     
+    display: flex;
+    height: 50vh;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.imagensPrincipais{
+    width: 100%;
+
+}
+
+#iconesUm {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.icons {
+    padding-top: 1.5rem;
+    width: 70%;
+    height: 100%;
+}
+
+#descricaoUm{
+    width: 50%;
+}
+
+#divBotao{
+    display: flex;
+    justify-content: center;
+    height: 4em;
+}
+
+.btn btn-outline-warning{
+    padding-left: 15px;
+}
+
+.titulo{
+    font-family: 'Dourado';
+    font-weight: normal;
+    font-size: 3em;
+    color: #FF9F1C;
+    margin: 4%;
+}
+
+.paragra{
+    font-family: 'Adobe';
+    font-weight: bolder;
+    font-size: 1.2em;
+    color: #003152;
+    margin: 5%;
+}
+
+.descricaoPrimeiro{
+    text-align: center;
+    /* margin: 5%; */
+}
+
+.SecaoImagemAnuncio{
+    display: flex;
+    justify-content: center;
+    height: 20rem;
+}
+
+#divSecaoImagem{
+    margin: 0;
+    display: flex;
+    justify-items: center;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+} 
+
+.imagensQuartoUm{
+    display: inline;
+    width: 20vw;
+    height: 30vh;
+    margin: auto;
+    padding: 10px;
+    align-items: center;
+    border-radius: 40px;
+    opacity: 0.5; 
+}
+
+.imagensQuartoUm:hover{
+    transform: scale(0.9);
+    transition: 0.7s;
+    opacity: 1;
+}
+
+.imagensQuartos{
+     width: 100%;
+}
+
+#rodape{
+    background-color: #003152;
+    height: 20em;
+}
+
+.imgfooter{
+    padding-top: 8%;
+    width: 15em;
+}
+
+.paragrafoFooter{
+    font-family: 'Adobe';
+    color: #F7F7F2;
+}
+
+.footerP{
+    font-family: 'Dourado';
+    padding-top: 5%;
+    color: #F7F7F2;
+    font-size: 3rem;
+    
+}
+
+.listaFooter{
+    list-style: none;
+    line-height: 3rem;
+    font-family: 'Adobe';
+}
+
+#iconsFooter{
+    text-align: center;
+    width: 12%;
+}
+
+#iconInsta{
+    width: 3.5rem;
+}
+
+.fi fi-brands-whatsapp{
+    color: #FF9F1C;
+}
