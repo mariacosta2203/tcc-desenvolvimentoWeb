@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Tangerine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap');
+
+@font-face {
+    font-family: 'Dourado';
+    src: url('../fontes/pretaportercontrast-bold.ttf') format(truetype);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Adobe';
+    src: url('../fontes/adobe-caslon-regular.otf') format(opentype);
+    font-weight: normal;
+}
+
+* {
+    margin: 0;
+}
+
+header {
+    background-image: url('../IMG/acomodacao/Design\ sem\ nome\ \(2\).svg');
+    background-size: cover;
+    background-position: center;
+    height: 40em;
+    text-align: center;
+}
+
+main{
+    background-color: #003152;
+    margin: 0;
+}
+
+#headerLogo {
+    display: flex;
+    align-items: start;
+    float: left;
+    padding-top: 1%;
+}
+
+.nomeIlhaUm {
+    display: flex;
+    color: aliceblue;
+}
+
+.textoImgInicio{
+    width: 100vw;
+
+}
+
+#textoInicialHeader{
+    width: 100%;
+    margin: 0;
+    height: 89vh;
+    display: flex;
+    justify-content: center;
+}
+
+.listaHeader {
+    display: flex;
+    justify-content: end;
+    column-gap: 1.8rem;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.3rem;
+    list-style: none;
+    padding-top: 2rem;
+    padding-right: 2rem;
+}
+
+a {
+    text-decoration-line: none;
+    color: #F7F7F2;
+}
+
+#secaoUm{
+    background-color: #003152 ;     
+    display: flex;
+    height: 50vh;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+#iconesUm {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.icons {
+    width: 70%;
+    height: 100%;
+}
+
+#descricaoUm{
+    width: 50%;
+}
+
+#divBotao{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.classBotao{
+    height: 8vh;
+    width: 10vw;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.titulo{
+    font-family: 'Dourado';
+    font-weight: normal;
+    font-size: 3em;
+    color: #FF9F1C;
+    margin: 4%;
+}
+
+.paragra{
+    font-family: 'Adobe';
+    font-size: 1.2em;
+    color: #F7F7F2;
+    margin: 5%;
+}
+
+.descricaoPrimeiro{
+    text-align: center;
+    /* margin: 5%; */
+}
+
+.SecaoImagemAnuncio{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.divSecaoImagem{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+} 
+
+.imagensQuartoUm{
+    display: inline;
+    width: 20vw;
+    height: 30vh;
+    margin: auto;
+    padding: 20px;
+    align-items: center;
+    border-radius: 40px;
+    opacity: 0.5; 
+}
+
+.imagensQuartoUm:hover{
+    transform: scale(0.9);
+    transition: 0.7s;
+    opacity: 1;
+}
+
+.imagensQuartos{
+     width: 100%;
+}
