@@ -9,7 +9,7 @@
 
 @font-face {
     font-family: 'Adobe';
-    src: url('../fontes/NordMedium.ttf') format(truetype);
+    src: url('../fontes/NordRegular.ttf') format(truetype);
     font-weight: normal;
 }
 
@@ -198,12 +198,17 @@ li a {
 }
 
 #iconsFooter{
-    text-align: center;
-    width: 12%;
+    /* display: flex;
+    justify-content: center; */
+    padding-top: 10rem;
+    width: 3em;
+    margin-left: 2rem;
 }
 
-#iconInsta{
-    width: 3.5rem;
+.imgLogo{
+    padding-top: 10rem;
+    width: 3.5em;
+    margin-left: 2rem;
 }
 
 .fi fi-brands-whatsapp{
