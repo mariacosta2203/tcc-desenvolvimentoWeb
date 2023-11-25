@@ -214,3 +214,25 @@ li a {
 .fi fi-brands-whatsapp{
     color: #FF9F1C;
 }
+
+@media(max-width: 768px){
+
+#descricaoUm{
+    width: auto;
+     
+}
+
+#secaoUm{
+    display: grid;
+}
+
+#iconesUm{
+    width: 100vw;
+}
+
+.imagensQuartoUm{
+    height: 10rem;
+}
+
+
+}
