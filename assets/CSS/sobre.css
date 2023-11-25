@@ -1,5 +1,5 @@
 #img1{
-    background-image: 100%;
+    width: 120rem;
 }
 header{
    width: 100%;
@@ -20,40 +20,55 @@ body{
     margin-bottom: 2rem;
 }
 
-/* #img1{
-    width: 50%;
-    border-radius: 5%;
-   
-} */
+
 
 #txt1{
-    margin-top: 120px;
-    margin-left: 30px;
-    margin-right: 30px;
-    font-size: larger ;
+    padding-top: 3rem;
+    margin-left: 1.5rem;
+    margin-right: 2.2rem;
+    margin-bottom: 2rem;
+    font-size: 0.8rem ;
+    
 }
 
 
 #img2{
-    width: 20%;
-    border-radius: 5%;
-    margin-left: 20%;
+   width: 45rem;
+   border-radius: 1.8rem;
+   margin-right: 1rem;
 }
 
-#txt2{
+/* #txt2{
     /* margin-top: 120px;
     margin-left: 30px;
     margin-right: 30px;
     font-size: larger ; */
-   
+
+.card1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2rem;
+        margin-bottom: 2rem;
+    }
+
+#img3{
+    width: 45rem;
+   border-radius: 1.8rem;
+   margin-right: 1rem;
 }
 
-
 #txt3{
+    height: 3rem;
+    
     text-align: center;
-    margin-left: 8%;
-    margin-right: 8%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 0.5rem;
     font-size: larger ;
+    border-radius: 2rem;
+border: 1px solid #000;
+background: #FFFAD6;
 }
 
 
@@ -66,84 +81,94 @@ body{
     font-size: larger ;
 }
 
-.btn-saiba-mais{
-    justify-content: center;
-    display: flex;
-    align-items: center;
+#img3{
+    margin-left: 3rem;
 }
+
+
+
+#img4{
+    margin-left: 50rem;
+    width: 20em;
+    height: 20em;
+}
+
+
+
 
 
 
 #txt5{
-
+    height: 3rem;
+    
+    text-align: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 0.5rem;
+    font-size: larger ;
+    border-radius: 2rem;
+border: 1px solid #000;
+background: #FFFAD6;
 }
+
 #txt6{
-
+    height: 3rem;
+    
+    text-align: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 0.5rem;
+    font-size: larger ;
+    border-radius: 2rem;
+border: 1px solid #000;
+background: #FFFAD6;
 }
+
+.card2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+#img9{
+    width: 30rem;
+}
+
 #txt7{
 
 }
+
 #txt8{
-
-}
-#txt9{
-
-}
-#txt10{
-
-}
-#txt11{
-
-}
-#txt12{
-
-}
-#txt13{
-
-}
-#txt14{
-
-}
-
-#img3{
-
-}
-#img4{
-
-}
-#img5{
-
-}
-#img6{
-
-}
-#img7{
-
-}
-#img8{
-
-}
-#img9{
-
-}
-#img10{
-
-}
-#img11{
-
-}
-#img12{
+    height: 3rem;
     
+    text-align: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 0.5rem;
+    font-size: larger ;
+    border-radius: 2rem;
+border: 1px solid #000;
+background: #FFFAD6;
+}
+
+#txt9{
+    color: #DAA520;
+font-family: Frank Ruhl Libre;
+font-size: 3rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding-left: 20rem;
 }
 
 
-
-
-
-
-
-
-
+#img10{
+   background-image: ;
+}
 
 
 
