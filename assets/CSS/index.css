@@ -103,12 +103,12 @@ button:hover {
     height: auto;
   }
 }
-@media only screen and (max-width: 767px) {
-  .banner video {
+/* @media only screen and (max-width: 767px) {
+  /* .banner video {
     width: 100%;
     height: auto;
   }
-}
+} */
 .a {
   text-decoration: none;
   color: black;
@@ -127,7 +127,7 @@ button:hover {
 }
 /* Cards */
 .centro {
-  width: 30wh;
+  width: 50wh;
   height: 50vh;
 }
 .centro h1 {
@@ -175,6 +175,15 @@ button:hover {
   overflow: hidden;
   /* transition: 0.5s; */
 }
+@media screen and (max-width: 768px) {
+  /* Estilos para telas menores que 768px de largura */
+  body {
+      font-size: 14px;
+  }
+
+  /* Adicione mais estilos conforme necessário */
+}
+
 /* .card:hover .imgBx{
     width: 250px;
     height: 250px;
@@ -503,6 +512,15 @@ footer {
   #footer_content {
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
+  }
+
+  .navbar{
+    display: grid;
+    grid-template-columns: 20% 80%;
+  }
+
+  .navbar ul{
+    margin: 5px;
   }
 }
 
