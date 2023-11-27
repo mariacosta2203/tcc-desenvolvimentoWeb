@@ -9,8 +9,16 @@
 
 @font-face {
     font-family: 'Adobe';
-    src: url('../fontes/NordMedium.ttf') format(truetype);
+    src: url('../fontes/adobe-caslon-regular.otf') format(truetype);
     font-weight: normal;
+}
+
+:root {
+    --color-neutral-0: #023c63;
+    --color-neutral-10: #003152;
+    --color-neutral-30: #fff;
+    --color-neutral-40: #ff9f1c;
+    --color-neutral-50: #ff9f1c;
 }
 
 * {
@@ -19,14 +27,14 @@
 
 header {
     position: relative;
-    background-image: url('../IMG/acomodacao/headerquartoprincipal.svg');
+    background-image: url('../IMG/acomodacao/headerimg.jpg');
     background-size: cover;
     background-position: center;
     height: 40em;
     text-align: center;
 }
 
-main{
+main {
     background-color: #F7F7F2;
     margin: 0;
 }
@@ -43,12 +51,12 @@ main{
     color: aliceblue;
 }
 
-.textoImgInicio{
+.textoImgInicio {
     width: 100vw;
 
 }
 
-#textoInicialHeader{
+#textoInicialHeader {
     width: 100%;
     margin: 0;
     height: 89vh;
@@ -72,15 +80,15 @@ li a {
     color: #F7F7F2;
 }
 
-#secaoUm{
-    background-color: #F7F7F2 ;     
+#secaoUm {
+    background-color: #F7F7F2;
     display: flex;
     height: 50vh;
     flex-wrap: wrap;
     margin: 0;
 }
 
-.imagensPrincipais{
+.imagensPrincipais {
     width: 100%;
 
 }
@@ -98,21 +106,21 @@ li a {
     height: 100%;
 }
 
-#descricaoUm{
+#descricaoUm {
     width: 50%;
 }
 
-#divBotao{
+#divBotao {
     display: flex;
     justify-content: center;
     height: 4em;
 }
 
-.btn btn-outline-warning{
+.btn btn-outline-warning {
     padding-left: 15px;
 }
 
-.titulo{
+.titulo {
     font-family: 'Dourado';
     font-weight: normal;
     font-size: 3em;
@@ -120,7 +128,7 @@ li a {
     margin: 4%;
 }
 
-.paragra{
+.paragra {
     font-family: 'Adobe';
     font-weight: bolder;
     font-size: 1.2em;
@@ -128,26 +136,26 @@ li a {
     margin: 5%;
 }
 
-.descricaoPrimeiro{
+.descricaoPrimeiro {
     text-align: center;
     /* margin: 5%; */
 }
 
-.SecaoImagemAnuncio{
+.SecaoImagemAnuncio {
     display: flex;
     justify-content: center;
     height: 20rem;
 }
 
-#divSecaoImagem{
+#divSecaoImagem {
     margin: 0;
     display: flex;
     justify-items: center;
     padding-top: 4rem;
     padding-bottom: 3rem;
-} 
+}
 
-.imagensQuartoUm{
+.imagensQuartoUm {
     display: inline;
     width: 20vw;
     height: 30vh;
@@ -155,57 +163,158 @@ li a {
     padding: 10px;
     align-items: center;
     border-radius: 40px;
-    opacity: 0.5; 
+    opacity: 0.5;
 }
 
-.imagensQuartoUm:hover{
+.imagensQuartoUm:hover {
     transform: scale(0.9);
     transition: 0.7s;
     opacity: 1;
 }
 
-.imagensQuartos{
-     width: 100%;
+.imagensQuartos {
+    width: 100%;
 }
 
-#rodape{
+#rodape-fundo {
     background-color: #003152;
-    height: 20em;
 }
 
-.imgfooter{
+.container text-center {
+    background-color: #003152;
+}
+
+.imgfooter {
     padding-top: 8%;
     width: 15em;
 }
 
-.paragrafoFooter{
+.paragrafoFooter {
     font-family: 'Adobe';
-    color: #F7F7F2;
+    padding-top: 10%;
+    color: var(--color-neutral-40);
 }
 
-.footerP{
-    font-family: 'Dourado';
+.footerP {
+    /* font-family: 'Dourado'; */
     padding-top: 5%;
-    color: #F7F7F2;
-    font-size: 3rem;
-    
+    color: var(--color-neutral-40);
+    font-size: 1.5rem;
+
 }
 
-.listaFooter{
+.listaFooter {
     list-style: none;
     line-height: 3rem;
-    font-family: 'Adobe';
+    /* font-family: 'Adobe'; */
 }
 
-#iconsFooter{
-    text-align: center;
-    width: 12%;
+.a-mapaSite {
+    color: var(--color-neutral-30);
+    transition: all 0.4s;
 }
 
-#iconInsta{
-    width: 3.5rem;
+.a-mapaSite:hover {
+    color: var(--color-neutral-40);
 }
 
-.fi fi-brands-whatsapp{
+#iconsFooter {
+    /* display: flex;
+    justify-content: center; */
+    padding-top: 10rem;
+    width: 3em;
+    margin-left: 2rem;
+}
+
+.imgLogo {
+    padding-top: 10rem;
+    width: 3.5em;
+    margin-left: 2rem;
+}
+
+.fi fi-brands-whatsapp {
     color: #FF9F1C;
+}
+
+#footer_copyright {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-neutral-0);
+    color: var(--color-neutral-40);
+    font-size: 0.9rem;
+    font-family: "Adobe";
+    padding: 1.5rem;
+    font-weight: 100;
+}
+
+.img-footer {
+    width: 15%;
+    padding-top: 7rem;
+    width: 3em;
+    margin-left: 2rem;
+}
+
+.a-icones {
+    text-decoration: none;
+}
+
+@media(max-width: 768px) {
+
+    #descricaoUm {
+        width: auto;
+
+    }
+
+    #secaoUm {
+        display: grid;
+    }
+
+    #iconesUm {
+        width: 100vw;
+    }
+
+    .imagensQuartoUm {
+        height: 10rem;
+        
+    }
+
+    #secaoImagensAnuncio {
+        padding-top: 15rem;
+    }
+
+    .listaFooter {
+        text-align: center;
+        width: 90vw;
+    }
+
+    .img-footer {
+        padding-top: 5%;
+        padding-bottom: 8%;
+        width: 9%;
+    }
+
+    .paragrafoFooter {
+        padding-top: 5%;
+    }
+
+    #divSecaoImagem {
+        width: 100%;
+        height: 23rem;
+        position: relative;
+        display: flex;
+        overflow: auto;
+        scroll-snap-type: x mandatory;
+    }
+
+    #divSecaoImagem .imgCarousel{
+        width: 100%;
+        height: 100%;
+        position: sticky;
+        left: 0;
+        flex-shrink: 0;
+        object-fit: cover;
+        scroll-behavior: smooth;
+        opacity: 1;
+        transform: none;
+    }
 }
