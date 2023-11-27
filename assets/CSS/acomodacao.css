@@ -275,6 +275,7 @@ li a {
 
     .imagensQuartoUm {
         height: 10rem;
+        
     }
 
     #secaoImagensAnuncio {
@@ -314,5 +315,6 @@ li a {
         object-fit: cover;
         scroll-behavior: smooth;
         opacity: 1;
+        transform: none;
     }
 }
