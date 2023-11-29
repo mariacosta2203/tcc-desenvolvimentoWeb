@@ -1,14 +1,22 @@
+header{
+    background-image: url(../IMG/sobre/tatumarinha2.jpg);
+    font-weight: normal;
+    background-repeat: no-repeat;
+    
+}
+
+
 body{
     background-color: #ffffff;
    
 }
 
 
-.img1{
+/* .img1{
     width: 78rem;
     height: 45rem;
    
-}
+} */
 
 
 .card {
@@ -362,8 +370,8 @@ text-align: center;
     line-height: normal;
     text-align: center;
 }
-/* .card5{
-   background-image: url('file:///c%3A/Users/Maria%20Eduarda/Documents/tcc-desenvolvimentoWeb/assets/IMG/sobre/estutatu.jpg');
+.card5{
+   background-image: url('../IMG/sobre/estutatu.jpg');
    background-size: cover;
    background-position: center;
    height: 50rem;
@@ -373,7 +381,7 @@ text-align: center;
    color: white;
    text-align: center;
    opacity: 90%;
-} */
+}
 .txt10{
    /* background: transparent;
    backdrop-filter: blur(1rem); */
@@ -385,6 +393,7 @@ text-align: center;
     margin-bottom: 10rem;
     font-size: 1.5rem ;
     color: #FFFAD6;
+    src: url('../fontes/NordRegular.ttf') format(truetype);
     
 }
 .txt11{
@@ -395,10 +404,12 @@ text-align: center;
     margin-bottom: 10rem;
     font-size: 1.5rem ;
     color: #FFFAD6;
+    src: url('../fontes/NordRegular.ttf') format(truetype);
 }
 
 .button{
     font-size: 1rem;
+    
 }
 
 /* #img11{
