@@ -1,12 +1,9 @@
-#img1{
-    width: 78rem;
-    height: 45rem;
-   
+header{
+    background-image: url(../IMG/sobre/tatumarinha2.jpg);
+    font-weight: normal;
+    background-repeat: no-repeat;
+    
 }
-/* header{
-   
-  
-} */
 
 
 body{
@@ -15,6 +12,11 @@ body{
 }
 
 
+/* .img1{
+    width: 78rem;
+    height: 45rem;
+   
+} */
 
 
 .card {
@@ -27,12 +29,14 @@ body{
     
 }
 
-#ttl{
+
+.ttl{
     font-size: 2rem;
     margin-left:18.5rem ;
 }
 
-#txt1{
+
+.txt1{
     
     margin-left: 6rem;
     margin-right: 2.2rem;
@@ -51,7 +55,7 @@ body{
 }
 
 
-#img2{
+.img2{
    width: 31rem;
    height: 20rem;
    border-radius: 1.8rem;
@@ -60,6 +64,8 @@ body{
    margin-right: rem;
 
 }
+
+
 .card1 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -68,7 +74,18 @@ body{
     margin-bottom: 2rem;
 }
 
-#txt2{
+
+.img3{
+    width: 31rem;
+    height: 20rem;
+    border-radius: 1.8rem;
+    margin-right: 2rem;
+    margin-left: 3rem;
+    
+}
+
+
+.txt2{
     margin-top: 4rem;
     margin-left: 5rem;
     margin-right: 8rem;
@@ -85,40 +102,45 @@ body{
     color: #FF9F1C; */
 }
 
-#addtxt{
+
+.addtxt{
     text-align: center;
     font-size: 1.3rem;
     margin-bottom: 3rem;
 }
 
- #add{
+
+.addcardimg{
+
+}
+
+
+.add{
    text-align: center;
   
  }
 
- #addimg{
+.addimg{
     margin-bottom: 3rem;
     width: 60rem;
  }
 
 .addcard{
-   
-    
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 0.5rem;
-   margin-top: 2rem;
+    margin-top: 2rem;
     margin-bottom: 2rem;
  }
  
  
- #addimg1{
+.addimg1{
       width: 35rem;
      margin-left: 3.5rem;
      border-radius: 3rem;
  }
 
-#addimg2{
+.addimg2{
     width: 31rem;
     margin-left: 5rem;
     margin-right: 3rem;
@@ -130,14 +152,6 @@ body{
 
 
 
-#img3{
-    width: 31rem;
-    height: 20rem;
-    border-radius: 1.8rem;
-    margin-right: 2rem;
-    margin-left: 3rem;
-    
-}
 
 
 
@@ -149,7 +163,7 @@ body{
 
    
 }
-#txt3{
+.txt3{
     height: 3rem;
     text-align: center;
     margin-left: 2rem;
@@ -172,10 +186,16 @@ background: #FFFAD6;
     color: #FF9F1C; */
 }
 
+.card2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
 
 
-
-#txt4{
+.txt4{
     text-align: center;
     margin-left: 20%;
     margin-right: 20%;
@@ -186,14 +206,14 @@ background: #FFFAD6;
 
 
 
-.card2{
+/* .card2{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 2rem;
     margin-bottom: 2rem;
-}
+} */
 
-#img4{
+.img4{
     margin-top: 2rem;
     margin-left: 5rem;
     width: 35rem;
@@ -201,7 +221,7 @@ background: #FFFAD6;
     border-radius: 2rem;
 }
 
-#txt5{
+.txt5{
 margin-top: 10rem;
 margin-left: 5rem;
 margin-right: 2.2rem;
@@ -214,7 +234,7 @@ opacity: 90%;
 
 
 
-#txt6{
+.txt6{
     height: 3rem;
     text-align: center;
         margin-left: 2rem;
@@ -229,7 +249,7 @@ opacity: 90%;
         background: blue; */
     }
     
-    #txt7{
+    .txt7{
         height: 3rem;
         text-align: center;
         margin-left: 2rem;
@@ -238,7 +258,9 @@ opacity: 90%;
         margin-bottom: 7rem;
         font-size: 1.3rem ;
     }
-    #addtxt1{
+
+
+    .addtxt1{
         font-size: 1.5rem;
     }
     
@@ -250,7 +272,7 @@ opacity: 90%;
         margin-bottom: 2rem;
        
     }
-#img5{
+.img5{
 width: 20rem;
 height: 15rem;
 margin-left: 15rem;
@@ -258,13 +280,15 @@ margin-right: 5rem;
 border-radius: 2rem;
     }
     
-    #img6{
+    .img6{
  width: 20rem;
  margin-right: 10rem;
  margin-left: 4rem;
  border-radius: 2rem;
 }
-#txt8{
+
+
+.txt8{
     height: 3rem;
     
     text-align: center;
@@ -275,6 +299,8 @@ border-radius: 2rem;
     font-size: 1.5rem ;
     
 }
+
+
 .card4{
     display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -283,18 +309,18 @@ border-radius: 2rem;
         margin-bottom: 2rem;
 }
 
-#img7{
+.img7{
     width: 25rem;
     height: 15rem;
 }
 
-#img8{
+.img8{
     width: 20rem;
     height: 15rem;
 }
 
 
-#img9{
+.img9{
     width: 28rem;
     height: 15rem;
 }
@@ -302,7 +328,7 @@ border-radius: 2rem;
 
 
 
-#txt9{
+.txt9{
     color: #DAA520;
 font-family: Frank Ruhl Libre;
 font-size: 3rem;
@@ -312,26 +338,14 @@ line-height: normal;
 text-align: center;
 }
 
-.card5{
-   background-image: url('https://marcosbarros.com.br/wp-content/uploads/2022/06/IMG_4715-1024x768.jpg');
-   background-size: cover;
-   background-position: center;
-   height: 50rem;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   color: white;
-   text-align: center;
-   opacity: 90%;
-}
 
 
 
 
-#img10{
-   width: 100%;
-   height: 100%;
-   opacity: 80%;
+.img10{
+    width: 100%;
+    height: 100%;
+    opacity: 80%;
 }
 
 
@@ -346,17 +360,31 @@ text-align: center;
    
 }
 
-#addtxt2{
+
+.addtxt2{
     color: #DAA520;
     font-family: Frank Ruhl Libre;
     font-size: 3rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    text-align: center;
+}
+.card5{
+   background-image: url('../IMG/sobre/estutatu.jpg');
+   background-size: cover;
+   background-position: center;
+   height: 50rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: white;
    text-align: center;
+   opacity: 90%;
 }
-#txt10{
-   
+.txt10{
+   /* background: transparent;
+   backdrop-filter: blur(1rem); */
     
     text-align: center;
     margin-left: 2rem;
@@ -365,9 +393,10 @@ text-align: center;
     margin-bottom: 10rem;
     font-size: 1.5rem ;
     color: #FFFAD6;
+    src: url('../fontes/NordRegular.ttf') format(truetype);
     
-    }
-#txt11{
+}
+.txt11{
     text-align: center;
     margin-left: 2rem;
     margin-right: 2rem;
@@ -375,11 +404,15 @@ text-align: center;
     margin-bottom: 10rem;
     font-size: 1.5rem ;
     color: #FFFAD6;
+    src: url('../fontes/NordRegular.ttf') format(truetype);
 }
 
+.button{
+    font-size: 1rem;
+    
+}
 
-
-#img11{
+/* #img11{
     width: 100%;
     height: 100%;
     opacity: 80%;
@@ -423,4 +456,4 @@ text-align: center;
 
 
 
-
+ */
