@@ -271,15 +271,31 @@ li a {
     font-weight: 100;
 }
 
-.img-footer {
-    width: 15%;
-    padding-top: 7rem;
-    width: 3em;
-    margin-left: 2rem;
-}
-
 .a-icones {
     text-decoration: none;
+    width: 20%;
+}
+
+.a-icones i{
+    font-size: 2.2rem;
+}
+
+.fa-brands{
+    width: 5rem;
+    padding-top: 8rem;
+
+}
+
+#instagram {
+    color: var(--color-neutral-40);
+}
+
+#facebook {
+    color: var(--color-neutral-40);
+}
+
+#whatsapp {
+    color: var(--color-neutral-40);
 }
 
 @media(max-width: 768px) {
@@ -319,6 +335,12 @@ li a {
 
     .paragrafoFooter {
         padding-top: 5%;
+    }
+
+    .fa-brands{
+        width: 5rem;
+        
+    
     }
 
     #divSecaoImagem {
