@@ -27,7 +27,7 @@ header {
     position: relative;
     background-size: cover;
     background-position: center;
-    height: 40em;
+    height: 36em;
     text-align: center;
 }
 
@@ -36,6 +36,10 @@ header {
     align-items: start;
     float: left;
     padding-top: 1%;
+}
+
+#carouselExampleDark{
+    margin-bottom: 0;
 }
 
 .navbar-toggler {
@@ -60,4 +64,14 @@ header {
 
 .nav-link:hover {
     color: var(--color-neutral-40);
+}
+
+.d-block w-100{
+    width: 700vw;
+}
+
+
+
+.h1-primeiro{
+    padding-top: -1rem;
 }
