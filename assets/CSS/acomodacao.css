@@ -46,6 +46,30 @@ main {
     padding-top: 1%;
 }
 
+.navbar-toggler {
+    color: var(--color-neutral-30);
+    width: 20vw;
+    border: 0;
+}
+
+#ativo-link {
+    color: var(--color-neutral-30);
+}
+
+#ativo-link:hover {
+    color: var(--color-neutral-40);
+}
+
+.nav-link {
+    color: var(--color-neutral-30);
+    font-family: 'Adobe';
+    font-size: 1.5em;
+}
+
+.nav-link:hover {
+    color: var(--color-neutral-40);
+}
+
 .nomeIlhaUm {
     display: flex;
     color: aliceblue;
@@ -247,15 +271,31 @@ li a {
     font-weight: 100;
 }
 
-.img-footer {
-    width: 15%;
-    padding-top: 7rem;
-    width: 3em;
-    margin-left: 2rem;
-}
-
 .a-icones {
     text-decoration: none;
+    width: 20%;
+}
+
+.a-icones i{
+    font-size: 2.2rem;
+}
+
+.fa-brands{
+    width: 5rem;
+    padding-top: 8rem;
+
+}
+
+#instagram {
+    color: var(--color-neutral-40);
+}
+
+#facebook {
+    color: var(--color-neutral-40);
+}
+
+#whatsapp {
+    color: var(--color-neutral-40);
 }
 
 @media(max-width: 768px) {
@@ -275,11 +315,11 @@ li a {
 
     .imagensQuartoUm {
         height: 10rem;
-        
+
     }
 
     #secaoImagensAnuncio {
-        padding-top: 15rem;
+        padding-top: 1rem;
     }
 
     .listaFooter {
@@ -297,6 +337,12 @@ li a {
         padding-top: 5%;
     }
 
+    .fa-brands{
+        width: 5rem;
+        
+    
+    }
+
     #divSecaoImagem {
         width: 100%;
         height: 23rem;
@@ -306,7 +352,7 @@ li a {
         scroll-snap-type: x mandatory;
     }
 
-    #divSecaoImagem .imgCarousel{
+    #divSecaoImagem .imgCarousel {
         width: 100%;
         height: 100%;
         position: sticky;
