@@ -236,6 +236,7 @@ li a {
 .a-mapaSite {
     color: var(--color-neutral-30);
     transition: all 0.4s;
+    text-decoration: none;
 }
 
 .a-mapaSite:hover {
