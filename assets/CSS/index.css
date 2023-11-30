@@ -406,6 +406,7 @@ footer {
 
 #footer_social_media .footer-link {
   display: flex;
+  padding-top: 1rem;
   align-items: center;
   justify-content: center;
   height: 2.5rem;
@@ -417,6 +418,7 @@ footer {
 
 #footer_social_media .footer-link i {
   font-size: 2rem;
+  color: var(--color-neutral-40);
 }
 
 #footer_social_media .footer-link:hover {
@@ -433,7 +435,7 @@ footer {
 }
 
 .footer-list .footer-link {
-  color: var(--color-neutral-30);
+  color: var(--color-neutral-40);
   transition: all 0.4s;
 }
 
@@ -448,13 +450,13 @@ footer {
 }
 
 #footer_subscribe p {
-  color: var(--color-neutral-30);
+  color: var(--color-neutral-10);
 }
 
 #input_group {
   display: flex;
   align-items: center;
-  background-color: var(--color-neutral-0);
+  background-color: var(--color-neutral-50);
   border-radius: 4px;
 }
 
