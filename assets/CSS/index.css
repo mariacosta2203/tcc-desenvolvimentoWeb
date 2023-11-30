@@ -275,7 +275,18 @@ button:hover {
 
 #div-texto-avaliacao {
   margin: 0;
-  width: 60vw;
+  width: 65vw;
+}
+#div-texto-avaliacao h2{
+  display: flex;
+  font-size: 2.2rem;
+  justify-content:center ;
+  font-family: 'dourado';
+  color: #FF9F1C;
+}
+.div-texto-avaliacao p{
+  font-size: 2rem;
+  font-family: 'adobe';
 }
 
 .paragrafo-avaliacao {
