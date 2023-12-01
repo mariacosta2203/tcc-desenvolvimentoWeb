@@ -1,0 +1,200 @@
+@font-face {
+    font-family: 'Dourado';
+    src: url('../fontes/pretaportercontrast-bold.ttf') format(truetype);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Adobe';
+    src: url('../fontes/adobe-caslon-regular.otf') format(truetype);
+    font-weight: normal;
+}
+
+main {
+    background-color: #F7F7F2;
+    margin: 0;
+}
+
+:root {
+    --color-neutral-0: #023c63;
+    --color-neutral-10: #003152;
+    --color-neutral-30: #fff;
+    --color-neutral-40: #ff9f1c;
+    --color-neutral-50: #ff9f1c;
+}
+
+header {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 36em;
+    text-align: center;
+}
+
+#headerLogo {
+    display: flex;
+    align-items: start;
+    float: left;
+    padding-top: 1%;
+}
+
+#carouselExampleDark{
+    margin-bottom: 0;
+}
+
+.navbar-toggler {
+    color: var(--color-neutral-30);
+    width: 20vw;
+    border: 0;
+}
+
+#ativo-link {
+    color: var(--color-neutral-30);
+}
+
+#ativo-link:hover {
+    color: var(--color-neutral-40);
+}
+
+.nav-link {
+    color: var(--color-neutral-30);
+    font-family: 'Adobe';
+    font-size: 1.5em;
+}
+
+.nav-link:hover {
+    color: var(--color-neutral-40);
+}
+
+.d-block w-100{
+    width: 700vw;
+}
+
+.h1-primeiro{
+    padding-top: -1rem;
+}
+
+#rodape-fundo {
+    background-color: #003152;
+}
+
+.container text-center {
+    background-color: #003152;
+}
+
+.imgfooter {
+    padding-top: 8%;
+    width: 15em;
+}
+
+.paragrafoFooter {
+    font-family: 'Adobe';
+    padding-top: 10%;
+    color: var(--color-neutral-40);
+}
+
+.footerP {
+    /* font-family: 'Dourado'; */
+    padding-top: 5%;
+    color: var(--color-neutral-40);
+    font-size: 1.5rem;
+
+}
+
+.listaFooter {
+    list-style: none;
+    text-decoration: none;
+    line-height: 3rem;
+    /* font-family: 'Adobe'; */
+}
+
+#iconsFooter {
+    /* display: flex;
+    justify-content: center; */
+    padding-top: 10rem;
+    width: 3em;
+    margin-left: 2rem;
+}
+
+#footer_copyright {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-neutral-0);
+    color: var(--color-neutral-40);
+    font-size: 0.9rem;
+    font-family: "Adobe";
+    padding: 1.5rem;
+    font-weight: 100;
+}
+
+.img-footer {
+    width: 15%;
+    padding-top: 7rem;
+    width: 3em;
+    margin-left: 2rem;
+}
+
+.a-mapaSite {
+    color: var(--color-neutral-30);
+    transition: all 0.4s;
+}
+
+.a-mapaSite:hover {
+    color: var(--color-neutral-40);
+    
+}
+
+#instagram {
+    color: var(--color-neutral-40);
+    width: 5rem;
+}
+
+#facebook {
+    color: var(--color-neutral-40);
+    width: 5rem;
+}
+
+#whatsapp {
+    color: var(--color-neutral-40);
+    width: 5rem;
+}
+
+@media(max-width: 768px) {
+
+    #descricaoUm {
+        width: auto;
+
+    }
+
+    #secaoUm {
+        display: grid;
+    }
+
+    #iconesUm {
+        width: 100vw;
+    }
+
+    .imagensQuartoUm {
+        height: 10rem;
+
+    }
+
+    #secaoImagensAnuncio {
+        padding-top: 1rem;
+    }
+
+    .listaFooter {
+        text-align: center;
+        width: 90vw;
+    }
+
+    .img-footer {
+        padding-top: 5%;
+        padding-bottom: 8%;
+        width: 9%;
+    }
+
+    .paragrafoFooter {
+        padding-top: 5%;
+    }
+}
