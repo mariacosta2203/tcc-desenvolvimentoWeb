@@ -34,7 +34,7 @@ main {
 .image-header {
   width: 50%;
   position: absolute;
-  padding-top: 29%;
+  padding-top: 15%;
 }
 
 .container-fluid {
@@ -235,12 +235,12 @@ button:hover {
   display: flex;
   justify-content: space-between;
   margin: 20px 0;
-  padding-top: 10px;
+  padding-top: 17px;
 }
 
 .card .content .detalhes .data p {
   font-size: 1em;
-  color: #555;
+  color: black;
   line-height: 1.2em;
   font-weight: 600;
 }
@@ -248,6 +248,7 @@ button:hover {
 .card .content .detalhes .actionBtn {
   display: flex;
   justify-content: center;
+  
 }
 
 .card .content .detalhes .actionBtn button {
@@ -258,7 +259,7 @@ button:hover {
   font-size: 1em;
   font-weight: 500;
   background: #003152;
-  color: #fff;
+  color: #ff9f1c;
   cursor: pointer;
 }
 
