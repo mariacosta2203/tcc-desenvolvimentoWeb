@@ -27,10 +27,8 @@
 
 header {
     position: relative;
-    background-image: url('../IMG/acomodacao/headerimg.jpg');
     background-size: cover;
     background-position: center;
-    height: 40em;
     text-align: center;
 }
 
@@ -39,11 +37,19 @@ main {
     margin: 0;
 }
 
+.navbar{
+    background-color: var(--color-neutral-10);
+}
+
 #headerLogo {
     display: flex;
     align-items: start;
     float: left;
     padding-top: 1%;
+}
+
+.img-capa{
+    width: 100%;
 }
 
 .navbar-toggler {
@@ -102,6 +108,18 @@ main {
 li a {
     text-decoration-line: none;
     color: #F7F7F2;
+}
+
+.link-reservar{
+    text-decoration: none;
+    font-size: 1.5em;
+    color: var(--color-neutral-40);
+}
+
+.link-reservar:hover{
+    text-decoration: none;
+    font-size: 1.5em;
+    color: #000;
 }
 
 #secaoUm {
@@ -320,7 +338,7 @@ li a {
     }
 
     #secaoImagensAnuncio {
-        padding-top: 1rem;
+        padding-top: 4rem;
     }
 
     .listaFooter {
@@ -339,9 +357,7 @@ li a {
     }
 
     .fa-brands{
-        width: 5rem;
-        
-    
+        padding-bottom: 2.5em;
     }
 
     #divSecaoImagem {
