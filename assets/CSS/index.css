@@ -112,7 +112,19 @@ main {
   justify-content: center;
   min-height: 70vh;
 }
+.grupo-avaliacao {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 4em;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+  background: #003152;
+}
+.grupo-avaliacao h2 {
+  color: #FF9F1C;
 
+}
 .logo {
   width: 160px;
   margin-top: -10px;
@@ -235,14 +247,22 @@ button:hover {
   display: flex;
   justify-content: space-between;
   margin: 20px 0;
-  padding-top: 17px;
+  padding-top: 30rem;
 }
 
 .card .content .detalhes .data p {
+  font-family: 'adobe';
   font-size: 1em;
   color: black;
-  line-height: 1.2em;
+  line-height: 1em;
   font-weight: 600;
+  margin-top: 100px;
+  padding-top: 100px;
+}
+.card-text {
+  font-family: 'adobe';
+  font-size: 1.2em;
+  color: black;
 }
 
 .card .content .detalhes .actionBtn {
@@ -252,6 +272,7 @@ button:hover {
 }
 
 .card .content .detalhes .actionBtn button {
+  font-family: 'adobe';
   padding: 10px 30px;
   border-radius: 5px;
   border: none;
@@ -273,7 +294,15 @@ button:hover {
   justify-content: center;
   background: #003152;
 }
-
+.h1-avaliacao{
+  color: #FF9F1C;
+  font-family: 'adobe';
+  display: flex;
+  justify-content: center;
+  background: #003152;
+  margin: 0;
+  padding-top: 1rem;
+}
 #div-texto-avaliacao {
   margin: 0;
   width: 65vw;
@@ -314,8 +343,8 @@ button:hover {
 
 }
 .carousel img {
-  max-width: 50rem;
-  height: 30rem;
+  width: 100%;
+  min-height: auto;
 }
 
 /* Footer */
