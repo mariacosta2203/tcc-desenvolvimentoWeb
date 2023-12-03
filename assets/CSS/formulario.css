@@ -42,6 +42,10 @@ input, select {
     color: white;
 }
 
+input{
+    padding: 0.6em;
+}
+
 option{
     background-color: white;
     color: #023C63;
@@ -63,6 +67,10 @@ option{
 
 #inputNome{
    grid-column: 2 / 5;
+}
+
+.ajustarTela{
+    justify-self: center;
 }
 
 .divisaoEsolhaSexo{
@@ -155,11 +163,19 @@ option{
     input, select{
         width: 90%;
     }
+
+    .ajustarTela{
+        justify-self: start;
+    }
   }
 
   @media(max-width: 1446px){
     form{
         padding-left: 3rem;
         padding-right: 3rem;
+    }
+
+    input, select{
+        width: 100%;
     }
   }

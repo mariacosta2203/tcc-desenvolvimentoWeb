@@ -89,16 +89,28 @@ header {
     font-weight: bold;
 }
 
-.card-text{
+.card-text, p{
     padding-top: 1em;
     font-family: 'Adobe';
     font-size: 1.5em;
     line-height: 1.5em;
 }
 
+.ul-primeirocard{
+    font-family: 'Adobe';
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+.p-primeirocard{
+    color: var(--color-neutral-40);
+    font-weight: bold;
+    font-size: 2em;
+}
+
 .img-fluid{
-    width: 20vw;
-    height: 60vh;
+    width: 30vw;
+    height: 80vh;
     border-radius: 1%;
 }
 
@@ -130,10 +142,10 @@ header {
     height: 55vh;
 }
 
-.segunda-img{
-    width: 70vw;
-    height: 70vh;
-}
+/* .segunda-img{
+    width: 30vw;
+    height: 60vh;
+} */
 
 .image img{
 	opacity: 0.8;
@@ -332,7 +344,7 @@ padding-top: 1em;
 
 #img-segundocard{
     width: 30vw;
-    height: 60vh;
+    height: 70vh;
     
 }
 /* TERMINA SEGUNDO CARD */
@@ -412,6 +424,13 @@ padding-top: 1em;
   .botao-inscrever:has(:first-child:active)::before,
   .botao-inscrever:has(:last-child:active)::before {
     transition: transform 500ms, opacity 250ms;
+  }
+
+  .link-forms{
+    text-decoration: none;
+    font-family: 'Adobe';
+    font-size: 1em;
+    color: var(--color-neutral-30);
   }
 
 /* TERMINA BOTÃO DO SEGUNDO CARD */
@@ -537,6 +556,16 @@ padding-top: 1em;
         padding-top: 1rem;
     }
 
+    
+
+    .p-primeirocard{
+        font-size: 1.5em;
+    }
+
+    .details{
+        height: 15vh;
+    }
+
     .listaFooter {
         text-align: center;
         width: 90vw;
@@ -556,8 +585,6 @@ padding-top: 1em;
         padding-bottom: 2.5em;
     }
 
-    
-
     .img-fluid{
         width: 90vw;
         height: 50vh;
@@ -571,7 +598,12 @@ padding-top: 1em;
         font-weight: bold;
     }
 
-    .card-text{
+    .card-text, p{
+        font-size: 1em;
+        line-height: 1.5em;
+    }
+
+    .ul-primeirocard{
         font-size: 1em;
         line-height: 1.5em;
     }
@@ -591,6 +623,7 @@ padding-top: 1em;
 
     .secao-card{
         margin: 20px;
+        
     }
 
     .primeira-img{
@@ -599,7 +632,7 @@ padding-top: 1em;
 
     #img-segundocard{
         width: 90vw;
-        height: 25vh;
+        height: 40vh;
         
     }
 
