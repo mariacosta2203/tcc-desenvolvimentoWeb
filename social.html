@@ -1,91 +1,253 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="assets/CSS/social.css">
-    <title>Participação social</title>
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link href="/website/css/uicons-bold-roun"
+rel="stylesheet">
+  <link rel="stylesheet" href="assets/CSS/social.css">
+  <title>Participação social</title>
 </head>
+
 <body>
 
-    <header>
+  <header>
 
-      <nav class="navbar navbar-expand-lg fixed-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html"><img src="./assets/IMG/acomodacao/logo.png" alt="" width="160vw"></a>
-          <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fi fi-rr-menu-burger"></i>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a id="ativo-link" class="nav-link active" aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="acomodacao.html">Acomodações</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="sobre.html">Sobre nós</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="social.html">Social</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="formulario.html">Formulário</a>
-              </li>
-            </ul>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="./assets/IMG/acomodacao/logo.png" alt="" width="160vw"></a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <i class="fi fi-rr-menu-burger"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a id="ativo-link" class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="acomodacao.html">Acomodações</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sobre.html">Sobre nós</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="social.html">Social</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="formulario.html">Formulário</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+  </header>
+
+  <main>
+
+    <div class="container-video">
+      <video class="video-capa"
+        src="./assets/IMG/acomodacao/White Simple Animated Travel Destination Vlog Video (2).mp4" autoplay loop
+        muted></video>
+    </div>
+
+    <!-- Primeiro Card: explicando empresa -->
+    <section>
+      <div class="card mb-3">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img
+              src="./assets/IMG/acomodacao/retrato-de-jovens-adultos-asiaticos-voluntarios-de-trabalho-em-equipe-para-conservacao-do-ambiente-voluntario-ajuda-na-coleta-de-lixo-plastico-e-espuma-na-are.jpg"
+              class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Juntos por um mundo melhor</h5>
+              <p class="card-text">
+                Compreendemos que os estudantes anseiam por mais do que simplesmente absorver conhecimento de livros,
+                vídeos e imagens. Acreditamos que proporcionar uma experiência enriquecedora e conectá-los com a
+                natureza pode verdadeiramente transformar suas perspectivas e influenciar positivamente suas atitudes em
+                relação a si mesmos e ao mundo.
+                <br>
+                Na Horizonte Dourado, comprometemo-nos a criar essa experiência única para os estudantes. Através de
+                parcerias sólidas com empresas e instituições de ensino superior, estamos prontos para guiá-los em
+                direção a um futuro mais promissor. Não se trata apenas de aprender, mas de vivenciar, crescer e
+                contribuir para um mundo melhor. Juntos, podemos construir pontes entre o conhecimento acadêmico e a
+                conexão com o ambiente, moldando não apenas profissionais competentes, mas também cidadãos conscientes e
+                comprometidos. Deixe-nos ser o horizonte que ilumina o caminho para o seu sucesso e um futuro mais
+                brilhante.
+            </div>
           </div>
         </div>
-      </nav>
+      </div>
+    </section>
+    <!-- Segundo Card: beneficio estadia -->
+    <section class="secao-card">
+      <div class="card-cont">
+        <!--image row start-->
+        <div class="linha-card">
+          <!--image card start-->
+          <div class="image">
+            <img class="primeira-img" src="./assets/IMG/acomodacao/madeira-parede-limpa-moveis-fundo.jpg" alt=""
+              width="100%">
+            <div class="details">
+              <h2><span>Acomodações</span></h2>
 
-          <div id="carouselExampleDark" class="carousel carousel-dark slide">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner" style="height: 36em;">
-              <div class="carousel-item h-100 active" data-bs-interval="3000" style="background-image: url(./assets/IMG/acomodacao/Inserir\ um\ subtítulo\ \(20\).jpg); background-size: contain; background-repeat: no-repeat; background-size: cover; background-position: center;">
-                
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>First slide label</h5>
-                  <p>O lar é onde nossas histórias são escritas</p>
-                </div>
-              </div>
-              <div class="carousel-item h-100"  data-bs-interval="3000" style="background-image: url(./assets/IMG/acomodacao/Inserir\ um\ subtítulo\ \(22\).jpg); background-size: contain; background-repeat: no-repeat; background-size: cover; background-position: center;">
-                
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Second slide label</h5>
-                  <p>Eu sei que o meu trabalho é uma gota no oceano, mas sem ele o oceano seria menor.</p>
-                </div>
-              </div>
-              <div class="carousel-item h-100" style="background-image: url(./assets/IMG/acomodacao/Inserir\ um\ subtítulo\ \(21\).jpg); background-repeat: no-repeat; background-size: cover; background-position: center;">
-                
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Third slide label</h5>
-                  <p>Some representative placeholder content for the third slide.</p>
-                </div>
+              <ul>
+                <li>Aplique-se para uma das vagas.</li>
+                <li>Estadia de 3 a 6 dias</li>
+                <li>Uma vez aprovado pelo anfitrião confirme sua estadia</li>
+                <li></li>
+                <li></li>
+              </ul>
+              <div class="more">
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
           </div>
-    </header>
+          <!--image card end-->
+          <!--image card start-->
+          <div class="image">
+            <img class="segunda-img" src="./assets/IMG/acomodacao/assentos-marrons-do-interior-de-um-aviao-moderno.jpg"
+              alt="">
+            <div class="details">
+              <h2><span>Transporte</span></h2>
+              <ul>
+                <li>Aplique-se para uma das vagas.</li>
+                <li>Estadia de 3 a 6 dias</li>
+                <li>Uma vez aprovado pelo anfitrião confirme sua estadia</li>
+                <li></li>
+                <li></li>
+              </ul>
+              <div class="more">
+              </div>
+            </div>
+          </div>
+    </section>
 
-    <main>
+    <!-- CARROSEL -->
 
-      <div class="clearfix">
+    <section class="swiper mySwiper">
+
+      <h2 class="h2-estudantes">O que nossos estudantes estão dizendo por ai ?</h2>
+
+      <div class="swiper-wrapper">
+
+        <div class="cardi swiper-slide">
+          <div class="cardi__image">
+            <img src="./assets/IMG/acomodacao/pexels-ogo-1486213 (1).jpg" alt="card image">
+          </div>
+
+          <div class="cardi__content">
+            <span class="cardi__title">Bianca </span>
+            <span class="cardi__name">Natal - Brasil</span>
+            <p class="cardi__text">Fui para a ação social de limpeza de praia no qual foi incrível e super importante
+              para nossa conscientização e para o mundo.</p>
+          </div>
+        </div>
+
+        <div class="cardi swiper-slide">
+          <div class="cardi__image">
+            <img src="./assets/IMG/acomodacao/pexels-italo-melo-2379004 (1).jpg" alt="card image">
+          </div>
+
+          <div class="cardi__content">
+            <span class="cardi__title">Robert</span>
+            <span class="cardi__name">Rio de Janeiro - Brasil</span>
+            <p class="cardi__text">Minha segunda vez participando da ação de limpeza de praias! Foi sensacional, toda a
+              equipe de voluntários e a anfitriã são incríveis.</p>
+          </div>
+        </div>
+
+        <div class="cardi swiper-slide">
+          <div class="cardi__image">
+            <img src="./assets/IMG/acomodacao/pexels-jeferson-santos-19130443.jpg" alt="card image">
+          </div>
+
+          <div class="cardi__content">
+            <span class="cardi__title">James</span>
+            <span class="cardi__name">Minas Gerais - Brasil</span>
+            <p class="cardi__text"> Fica difícil descrever em poucas palavras tudo o que vivi em apenas 3 dias, só
+              experimentando mesmo. Estar com outros voluntários e de quebra conhecer pessoalmente a equipe foi
+              fantástico!</p>
+          </div>
+        </div>
+
+        <div class="cardi swiper-slide">
+          <div class="cardi__image">
+            <img src="./assets/IMG/acomodacao/pexels-tomaz-barcellos-1987301.jpg" alt="card image">
+          </div>
+
+          <div class="cardi__content">
+            <span class="cardi__title">Katia</span>
+            <span class="cardi__name">São Paulo - Brasil</span>
+            <p class="cardi__text">Um lugar muito bonito, natureza pura!
+              Foi minha primeira experiência de viagem com e não poderia ter sido melhor. Viajar participando de uma
+              ação social, ecológica, foi tudo de bom!</p>
+          </div>
+        </div>
+
+        <div class="cardi swiper-slide">
+          <div class="cardi__image">
+            <img src="./assets/IMG/acomodacao/pexels-thiago-rosarii-19122398.jpg" alt="card image">
+          </div>
+
+          <div class="cardi__content">
+            <span class="cardi__title">Mirabel</span>
+            <span class="cardi__name">São Paulo - Brasil</span>
+            <p class="cardi__text">Um lugar muito bonito, natureza pura!
+              Foi minha primeira experiência de viagem com e não poderia ter sido melhor. Viajar participando de uma
+              ação social, ecológica, foi tudo de bom!</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- QUERO PARTICIPAR CARD -->
+    <section>
+
+      <div class="card mb-3">
+        <div class="row g-0">
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Quero participar!</h5>
+              <p class="card-text">
+                Uhuuu! A animação está no ar e a alegria de receber você no Horizonte Dourado é contagiante! Estamos ansiosos para compartilhar momentos incríveis, experiências enriquecedoras e construir juntos um futuro repleto de realizações. No Horizonte Dourado, cada chegada é uma celebração, e cada pessoa que se junta a nós é uma adição especial à nossa comunidade vibrante.
+                
+                <h2 class="h2-segundocard">Como funciona</h2>
+                <ul class="ul-segundocard">
+                  <li class="li-segundocard"><i class="icone-linha fi fi-sr-check"></i> Faça seu cadastro no formulário abaixo.</li>
+                  <li class="li-segundocard"><i class="icone-linha fi fi-sr-check"></i> Encontre a galera que vai participar na praia na data e horário.</li>
+                  <li class="li-segundocard"><i class="icone-linha fi fi-sr-check"></i> Juntos vamos impactar a praia muito além de recolher o lixo!</li>
+                </ul>
+                <button class="botao-inscrever" href="">
+                  <span></span>
+                  Participe
+                  <span></span>
+                </button>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <img id="img-segundocard" src="./assets/IMG/acomodacao/Sem nome (Your Story) (2).jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          
+        </div>
+      </div>
+
+    </section>
+    <!-- <div class="clearfix">
         <img src="./assets/IMG/acomodacao/voluntariado5.jpg" class="col-md-6 float-md-end mb-3 ms-md-3" alt="...">
       
         <p>
@@ -97,6 +259,7 @@
         </p>
       
         <p>
+          oferecemos estadia de forma gratuita para fins de seus estudos; tendo direito a um prazo entre 3 a 6 dias. Para conseguir sua estadia de forma gratuita, o estudante necessita realizar o cadastro e deixando claro todas as informações possíveis, informando alguns pontos importantes:</p>
           And yet, here you are, still persevering in reading this placeholder text, hoping for some more insights, or some hidden easter egg of content. A joke, perhaps. Unfortunately, there's none of that here.
         </p>
       </div>
@@ -140,57 +303,79 @@
        </p>
        <p>
         Se você tem todos os requisitos solicitados acima, realize sua inscrição agora!!!
-       </p>
+       </p> -->
 
 
 
 
-       <footer id="rodape-fundo">
-        <div class="container text-center" >
-            <div class="row">
-                <div class="col">
-                    <img class="imgfooter" src="./assets/IMG/acomodacao/logo.png" alt="">
+    <footer id="rodape-fundo">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <img class="imgfooter" src="./assets/IMG/acomodacao/logo.png" alt="">
 
-                    <p class="paragrafoFooter">It's all about your dreams.</p>
-                </div>
-                <div class="col">
-                    <h3 class="footerP">Mapa do Site</h3>
+            <p class="paragrafoFooter">It's all about your dreams.</p>
+          </div>
+          <div class="col">
+            <h3 class="footerP">Mapa do Site</h3>
 
-                    <ul class="listaFooter">
-                        <li><a class="a-mapaSite" href="index.html">Home</a></li>
-                        <li><a class="a-mapaSite" href="acomodacao.html">Acomodações</a></li>
-                        <li><a class="a-mapaSite" href="sobre.html">Sobre nós</a> </li>
-                        <li><a class="a-mapaSite" href="formulario.html">Formulário</a></li>
-                    </ul>
-                </div>
-                <div class="col">
-                    
-                    <a class="a-icones" id="instagram">
-                        <i class="fa-brands fa-instagram"></i>
-                    </a>
-    
-                    <a class="a-icones" id="facebook">
-                        <i class="fa-brands fa-facebook-f"></i>
-                    </a>
-    
-                    <a class="a-icones" id="whatsapp">
-                        <i class="fa-brands fa-whatsapp"></i>
-                    </a>
-                
-                </div>
-            </div>
+            <ul class="listaFooter">
+              <li><a class="a-mapaSite" href="index.html">Home</a></li>
+              <li><a class="a-mapaSite" href="acomodacao.html">Acomodações</a></li>
+              <li><a class="a-mapaSite" href="sobre.html">Sobre nós</a> </li>
+              <li><a class="a-mapaSite" href="formulario.html">Formulário</a></li>
+            </ul>
+          </div>
+          <div class="col">
 
+            <a class="a-icones" id="instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a class="a-icones" id="facebook">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+
+            <a class="a-icones" id="whatsapp">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+
+          </div>
         </div>
 
-        <div id="footer_copyright">
-            &#169
-            2023 Horionte Dourado
-        </div>
+      </div>
+
+      <div id="footer_copyright">
+        &#169
+        2023 Horionte Dourado
+      </div>
     </footer>
-    </main>
+  </main>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <script src="./assets/JS/acomodacao.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 0,
+        stretch: 0,
+        depth: 300,
+        modifier: 1,
+        slideShadows: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
 
 </body>
+
 </html>
