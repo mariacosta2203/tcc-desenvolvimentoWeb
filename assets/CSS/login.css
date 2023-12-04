@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    background-color: #023C63;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 50vh;
+    width: 50vw;
+    align-content: stretch;
+    justify-items: center;
+    margin: auto;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+}
+
+img{
+    width: 22rem;
+}
+
+#imagem{
+    display: flex;
+    align-items: center;
+}
+
+h3{
+    justify-self: center;
+    font-size: 1.8em;
+}
+
+#cadastro{
+    justify-self: center;
+}
+
+#login{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 20% auto;
+    width: 90%;
+    row-gap: 1.2em;
+}
+
+a{
+    color: #FF9F1C;
+}
+
+input{
+    border-radius: 20px;
+    border: solid 1px white;
+}
+
+button{
+    background-color: #FF9F1C;
+    color: white;
+    font-weight: 600;
+    font-size: 1em;
+    border-radius: 20px;
+    border: 1px solid #FF9F1C;
+}
+
+#botaoLogin{
+    color: white;
+    text-decoration: none;
+}
+
+
+@media(max-width: 768px){
+    main{
+        background-color: #023C63;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        height: 100vh;
+        width: 97.4%;
+        justify-items: center;
+        border-radius: 0;
+    }
+
+    #login{
+        justify-content: center;
+    }
+}
