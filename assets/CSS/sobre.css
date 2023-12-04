@@ -379,8 +379,8 @@ margin-top: 2rem;
         .img2{
      
           margin-left: 4rem;
-            width: 12rem;
-        height: 4rem;
+            width: 14rem;
+        height: 5rem;
         }
 
         .conteudo1{
@@ -392,7 +392,7 @@ margin-top: 2rem;
 
         
         .img3{
-          margin-left: 2.5rem;
+          margin-left: 3rem;
             width: 12rem;
         height: 8rem;
         grid-row: 1/2;
@@ -424,6 +424,7 @@ margin-top: 2rem;
 
 .ttl1{
  margin-left: 2rem;
+ font-size: 1.5rem;
 }
 
 
@@ -436,7 +437,7 @@ margin-top: 2rem;
 
 .img4{
   margin-left: 3rem;
-            width: 12rem;
+            width: 14rem;
         height: 8rem;
         
 }
