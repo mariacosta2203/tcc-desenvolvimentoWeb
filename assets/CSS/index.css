@@ -82,25 +82,6 @@ main {
   width: 20%;
 }
 
-#backtotop {
-  text-decoration: none;
-  color: white;
-  font-size: 1.5em;
-  background-color: rgb(65, 65, 207);
-  box-shadow: 3px 3px black;
-  padding: 7px;
-  margin: 3px;
-  position: fixed;
-  right: 10px;
-  bottom: 10px;
-  width: 1.5em;
-  text-align: center;
-}
-
-#backtotop:hover {
-  transform: scale(1.3);
-  transition: 0.6s;
-}
 /* H1 - Excursão */
 
 .centro {
@@ -234,11 +215,6 @@ button:hover {
   object-fit: cover;
 }
 
-.imgavalia:hover{
-  transform: scale(1.3);
-  transition: 0.5s;
-}
-
 .card .content {
   position: absolute;
   width: 100%;
@@ -309,11 +285,6 @@ button:hover {
   color: #ff9f1c;
   cursor: pointer;
 }
-
-.card .content .detalhes .actionBtn button:hover{
-  transform: scale(1.2);
-  transition: 0.6s;
-} 
 
 /* AVALIAÇÃO */
 
