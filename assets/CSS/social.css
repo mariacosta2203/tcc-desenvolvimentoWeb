@@ -96,13 +96,13 @@ header {
 p {
     padding-top: 1em;
     font-family: 'Adobe';
-    font-size: 1.5em;
+    font-size: 1.2em;
     line-height: 1.5em;
 }
 
 .ul-primeirocard {
     font-family: 'Adobe';
-    font-size: 1.5em;
+    font-size: 1.2em;
     line-height: 1.5em;
 }
 
@@ -116,8 +116,8 @@ p {
     font-size: 0.5em;
 }
 
-.img-fluid {
-    width: 30vw;
+.img-primeirocardtext {
+    width: 26vw;
     height: 80vh;
     border-radius: 1%;
 }
@@ -252,7 +252,7 @@ p {
     width: 100%;
 }
 
-.h2-estudantes {
+.h2-estudantestext {
     padding-top: 2em;
     padding-bottom: 2em;
     text-align: center;
@@ -592,6 +592,14 @@ p {
         font-size: 1.5em;
     }
 
+    .h2-estudantes{
+        padding-top: 4em;
+    }
+
+    .h2-estudantestext{
+        font-size: 1em;
+    }
+
     .details {
         height: 10vh;
     }
@@ -619,8 +627,18 @@ p {
         font-size: 2.5em;
     }
 
-    .img-fluid {
-        width: 90vw;
+    .img-fluid{
+        width: 70vw;
+        height: 60vh;
+    }
+
+    /* .img-segundocardtext{
+        width: 72vw;
+        height: 60vh;
+    } */
+
+    .img-primeirocardtext {
+        width: 72vw;
         height: 60vh;
         border-radius: 1%;
     }
@@ -634,6 +652,25 @@ p {
 
     .card-text,
     p {
+        font-size: 1em;
+        line-height: 1.5em;
+    }
+
+    .h2-estudantestext {
+        padding-top: 2em;
+        padding-bottom: 2em;
+        text-align: center;
+        font-family: 'Adobe';
+        font-size: 2.5em;
+        font-weight: bold;
+    }
+
+    .ul-segundocard {
+        font-size: 1em;
+        line-height: 1em;
+    }
+
+    .li-segundocard {
         font-size: 1em;
         line-height: 1.5em;
     }
@@ -675,7 +712,7 @@ p {
 
     #img-segundocard {
         width: 90vw;
-        height: 40vh;
+        height: 30vh;
     }
 
     button {
