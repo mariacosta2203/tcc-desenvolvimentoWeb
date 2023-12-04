@@ -1,3 +1,5 @@
+@import url('https://cdn-uicons.flaticon.com/2.0.0/uicons-solid-rounded/css/uicons-solid-rounded.css');
+
 @font-face {
     font-family: 'Dourado';
     src: url('../fontes/pretaportercontrast-bold.ttf') format(truetype);
@@ -27,7 +29,6 @@ header {
     position: relative;
     background-size: cover;
     background-position: center;
-    height: 36em;
     text-align: center;
 }
 
@@ -38,8 +39,8 @@ header {
     padding-top: 1%;
 }
 
-#carouselExampleDark{
-    margin-bottom: 0;
+.navbar{
+    background-color: var(--color-neutral-10);
 }
 
 .navbar-toggler {
@@ -66,21 +67,382 @@ header {
     color: var(--color-neutral-40);
 }
 
-.d-block w-100{
+.d-block w-100 {
     width: 700vw;
 }
 
-.h1-primeiro{
+.video-capa{
+    width: 100%;
+}
+
+.card{
+    padding: 1em;
+    margin: auto;
+    width: 80vw;
+}
+
+.card-title{
+    text-align: center;
+    font-family: 'Adobe';
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.card-text, p{
+    padding-top: 1em;
+    font-family: 'Adobe';
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+.ul-primeirocard{
+    font-family: 'Adobe';
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+.p-primeirocard{
+    color: var(--color-neutral-40);
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.img-fluid{
+    width: 30vw;
+    height: 80vh;
+    border-radius: 1%;
+}
+
+/* Card que vira*/
+
+.card-cont{
+	margin: 0;
+}
+
+.linha-card{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+    
+}
+
+.image{
+	background: var(--color-neutral-30);
+	position: relative;
+	flex: 1;
+	max-width: 460px;
+	height: 30em;
+	margin: 20px;
+	overflow: hidden;
+    border-radius: 2%;
+}
+
+.primeira-img{
+    height: 55vh;
+}
+
+/* .segunda-img{
+    width: 30vw;
+    height: 60vh;
+} */
+
+.image img{
+	opacity: 0.8;
+	position: relative;
+	vertical-align: top;
+	transition: 0.6s;
+	transition-property: opacity;
+}
+
+.image:hover img{
+	opacity: 1;
+}
+
+.image .details{
+	z-index: 1;
+	position: absolute;
+	top: 0;
+	right: 0;
+	color: var(--color-neutral-10);
+	width: 100%;
+	height: 100%;
+    
+}
+
+.image .details h2{
+	text-align: center;
+	font-size: 35px;
+	text-transform: uppercase;
+	font-weight: 300;
+	margin-top: 70px;
+	transition: 0.4s;
+	transition-property: transform;
+    color: var(--color-neutral-10)
+}
+
+.image .details h2 span{
+	font-weight: 900;
+    font-family: 'Adobe';
+}
+
+.image:hover .details h2{
+	transform: translateY(-30px);
+}
+
+.image .details li{
+	margin: 30px 30px 0 30px;
+	font-size: 1.5em;
+	font-weight: 600;
+	text-align: center;
+	opacity: 0;
+	transition: 0.6s;
+	transition-property: opacity, transform;
+    list-style: none;
+    padding-top: 5%;
+    color: var(--color-neutral-10)
+}
+
+.image:hover .details li{
+	opacity: 1;
+	transform: translateY(-40px);
+}
+
+.more{
+	position: absolute;
+	background: var(--color-neutral-10);
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px;
+	bottom: -60px;
+	transition: 0.6s;
+	transition-property: bottom;
+}
+
+.image:hover .more{
+	bottom: 0;
+}
+
+/* Aqui acaba o card que vira */
+
+/* começo do carrosel */
+
+.swiper{
+    width: 100%;
+  }
+
+  .h2-estudantes{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    text-align: center;
+    font-family: 'Adobe';
+    font-size: 2.5em;
+    font-weight: bold;
+  }
+  
+  .swiper-wrapper{
+    width: 100%;
+    height: 35em;
+    display: flex;
+    align-items: center;
+  }
+  
+  .cardi{
+    width: 20em;
+    height: 90%;
+    background-color: #fff;
+    border-radius: 2em;
+    box-shadow: 0 0 2em rgba(0, 0, 0, .2);
+    padding: 2em 1em;
+  
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  
+    margin: 0 2em;
+  }
+  
+  .swiper-slide:not(.swiper-slide-active){
+    filter: blur(0.1em);
+  }
+  
+  .cardi__image{
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    border: 5px solid var(--color-neutral-40);
+    padding: 3px;
+    margin-bottom: 2em;
+  }
+  
+  .cardi__image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .cardi__content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .cardi__title{
+    font-size: 1.5rem;
+    font-weight: 500;
+    position: relative;
+    top: .2em;
+  }
+  
+  .cardi__name{
+    color: var(--color);
+  }
+  
+  .cardi__text{
+    text-align: center;
+    font-size: 1.1rem;
+    margin: 1em 0;
+  }
+  
+  .cardi__btn{
+    background-color: var(--color);
+    color: #fff;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: none;
+    padding: .5em;
+    border-radius: .5em;
+    margin-top: .5em;
+    cursor: pointer;
+  }
+
+/* termina carrosel */
+.h1-primeiro {
     padding-top: -1rem;
 }
+
+/* COMEÇO SEGUNDO CARD */
+
+.h2-segundocard{
+padding-top: 1em;
+}
+
+.icone-linha{
+    color: var(--color-neutral-40);
+    margin-right: 0.5em;
+}
+
+.li-segundocard{
+    padding-top: 1em;
+    list-style: none;
+    line-height: 3em
+}
+
+#img-segundocard{
+    width: 30vw;
+    height: 70vh;
+    
+}
+/* TERMINA SEGUNDO CARD */
+
+/* BOTÃO DO SEGUNDO CARD */
+
+.botao-inscrever {
+    font: inherit;
+    padding: 0.75em 3em;
+    background: var(--color-neutral-40);
+    border: 0.1em solid var(--color-neutral-40);
+    border-radius: 100vw;
+    cursor: pointer;
+    transition: background-color 250ms;
+  
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+  }
+  
+  .botao-inscrever:hover,
+  .botao-inscrever:focus-visible {
+    background: var(--color-neutral-40);
+  }
+  
+  .botao-inscrever > span {
+    position: absolute;
+    z-index: -1;
+    width: 33.333%;
+    height: 100%;
+  
+    background: transparent;
+    opacity: 0.5;
+  }
+  
+  .botao-inscrever > :first-child {
+    left: 0;
+    top: 0;
+  }
+  
+  .botao-inscrever > :last-child {
+    right: 0;
+    top: 0;
+  }
+  
+  .botao-inscrever::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: var(--color-neutral-0);
+    border: var(--color-neutral-10);
+    width: 10%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    inset: 0;
+    margin: auto;
+    opacity: 0;
+  
+    transition: transform 1000ms 200ms, opacity 200ms;
+  }
+  
+  .botao-inscrever:active::before {
+    transform: scale(20);
+    opacity: 1;
+  
+    transition: transform 1000ms, opacity 500ms;
+  }
+  
+  .botao-inscrever:has(:first-child:active)::before {
+    margin-left: 0;
+  }
+  
+  .botao-inscrever:has(:last-child:active)::before {
+    margin-right: 0;
+  }
+  
+  .botao-inscrever:has(:first-child:active)::before,
+  .botao-inscrever:has(:last-child:active)::before {
+    transition: transform 500ms, opacity 250ms;
+  }
+
+  .link-forms{
+    text-decoration: none;
+    font-family: 'Adobe';
+    font-size: 1em;
+    color: var(--color-neutral-30);
+  }
+
+/* TERMINA BOTÃO DO SEGUNDO CARD */
 
 #rodape-fundo {
     background-color: #003152;
 }
 
-.container text-center {
+
+
+/* .container text-center {
     background-color: #003152;
-}
+  } */
 
 .imgfooter {
     padding-top: 8%;
@@ -94,7 +456,6 @@ header {
 }
 
 .footerP {
-    /* font-family: 'Dourado'; */
     padding-top: 5%;
     color: var(--color-neutral-40);
     font-size: 1.5rem;
@@ -103,17 +464,33 @@ header {
 
 .listaFooter {
     list-style: none;
-    text-decoration: none;
     line-height: 3rem;
-    /* font-family: 'Adobe'; */
+}
+
+.a-mapaSite {
+    color: var(--color-neutral-30);
+    transition: all 0.4s;
+    text-decoration: none;
+}
+
+.a-mapaSite:hover {
+    color: var(--color-neutral-40);
 }
 
 #iconsFooter {
-    /* display: flex;
-    justify-content: center; */
     padding-top: 10rem;
     width: 3em;
     margin-left: 2rem;
+}
+
+.imgLogo {
+    padding-top: 10rem;
+    width: 3.5em;
+    margin-left: 2rem;
+}
+
+.fi fi-brands-whatsapp {
+    color: #FF9F1C;
 }
 
 #footer_copyright {
@@ -127,36 +504,31 @@ header {
     font-weight: 100;
 }
 
-.img-footer {
-    width: 15%;
-    padding-top: 7rem;
-    width: 3em;
-    margin-left: 2rem;
+.a-icones {
+    text-decoration: none;
+    width: 20%;
 }
 
-.a-mapaSite {
-    color: var(--color-neutral-30);
-    transition: all 0.4s;
+.a-icones i {
+    font-size: 2.2rem;
 }
 
-.a-mapaSite:hover {
-    color: var(--color-neutral-40);
-    
+.fa-brands {
+    width: 5rem;
+    padding-top: 8rem;
+
 }
 
 #instagram {
     color: var(--color-neutral-40);
-    width: 5rem;
 }
 
 #facebook {
     color: var(--color-neutral-40);
-    width: 5rem;
 }
 
 #whatsapp {
     color: var(--color-neutral-40);
-    width: 5rem;
 }
 
 @media(max-width: 768px) {
@@ -183,6 +555,16 @@ header {
         padding-top: 1rem;
     }
 
+    
+
+    .p-primeirocard{
+        font-size: 1.5em;
+    }
+
+    .details{
+        height: 15vh;
+    }
+
     .listaFooter {
         text-align: center;
         width: 90vw;
@@ -197,4 +579,67 @@ header {
     .paragrafoFooter {
         padding-top: 5%;
     }
+
+    .fa-brands {
+        padding-bottom: 2.5em;
+    }
+
+    .img-fluid{
+        width: 90vw;
+        height: 50vh;
+        border-radius: 1%;
+    }
+
+    .card-title{
+        text-align: center;
+        font-family: 'Adobe';
+        font-size: 2em;
+        font-weight: bold;
+    }
+
+    .card-text, p{
+        font-size: 1em;
+        line-height: 1.5em;
+    }
+
+    .ul-primeirocard{
+        font-size: 1em;
+        line-height: 1.5em;
+    }
+
+    .image{
+		flex: 100%;
+		max-width: 480px;
+	}
+
+    .image .details li{
+		font-size: 18px;
+	}
+
+    .image{
+        height: 50vh;
+    }
+
+    .secao-card{
+        margin: 20px;
+        
+    }
+
+    .primeira-img{
+        height: 50vh;
+    }
+
+    #img-segundocard{
+        width: 90vw;
+        height: 40vh;
+        
+    }
+
+    button{
+        margin: 2.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
 }

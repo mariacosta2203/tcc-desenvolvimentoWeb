@@ -42,6 +42,10 @@ input, select {
     color: white;
 }
 
+input{
+    padding: 0.6em;
+}
+
 option{
     background-color: white;
     color: #023C63;
@@ -63,6 +67,10 @@ option{
 
 #inputNome{
    grid-column: 2 / 5;
+}
+
+.ajustarTela{
+    justify-self: center;
 }
 
 .divisaoEsolhaSexo{
@@ -108,6 +116,8 @@ option{
         grid-template-columns: 20% 80%;
         grid-template-rows: auto;
         justify-content: center;
+        column-gap: 2.4rem;
+        width: 100vw;
     }
 
     main{
@@ -136,6 +146,7 @@ option{
      .textoTermo{
         grid-column: 2 / 3;
         font-size: 0.9em;
+        width: 90%;
     }
 
     .termos{
@@ -144,8 +155,27 @@ option{
 
     #botao{
         grid-column: 2 / 3;
-        width: 15rem;
+        width: 10rem;
         height: 3em;
         margin-bottom: 5em;
+    }
+
+    input, select{
+        width: 90%;
+    }
+
+    .ajustarTela{
+        justify-self: start;
+    }
+  }
+
+  @media(max-width: 1446px){
+    form{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    input, select{
+        width: 100%;
     }
   }

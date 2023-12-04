@@ -61,6 +61,11 @@ button{
     border: 1px solid #FF9F1C;
 }
 
+#botaoLogin{
+    color: white;
+    text-decoration: none;
+}
+
 
 @media(max-width: 768px){
     main{
