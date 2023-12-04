@@ -75,6 +75,8 @@ header {
     width: 100%;
 }
 
+/* TRÊS CARDS */
+
 .card {
     padding: 1em;
     margin: auto;
@@ -84,7 +86,7 @@ header {
 .card-title {
     text-align: center;
     font-family: 'Adobe';
-    font-size: 3em;
+    font-size: 2em;
     font-weight: bold;
 }
 
@@ -108,11 +110,26 @@ p {
     font-size: 2em;
 }
 
+.text-card{
+    font-size: 0.5em;
+}
+
 .img-fluid {
     width: 30vw;
     height: 80vh;
     border-radius: 1%;
 }
+
+.h2-textcard{
+    font-size: 1em;
+}
+
+.text-card{
+    font-size: 1em;
+    line-height: 2em;
+}
+
+/* TERMINA TRÊS CARDS */
 
 /* Card que vira*/
 
@@ -120,12 +137,13 @@ p {
     margin: 0;
 }
 
-.linha-card {
+.campo-card {
     margin-left: 8em;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     width: 80vw;
+    height: 100vh;
 }
 
 .image {
@@ -139,9 +157,7 @@ p {
     border-radius: 2%;
 }
 
-.primeira-img {
-    height: 55vh;
-}
+
 
 /* .segunda-img{
     width: 30vw;
@@ -558,7 +574,11 @@ p {
         padding-top: 1rem;
     }
 
-    .linha-card {
+    .swiper {
+        margin-top: 100%;
+    }    
+
+    .campo-card{
         margin: auto;
         display: flex;
         justify-content: center;
@@ -593,9 +613,13 @@ p {
         padding-bottom: 2.5em;
     }
 
+    .card-text{
+        font-size: 2.5em;
+    }
+
     .img-fluid {
         width: 90vw;
-        height: 50vh;
+        height: 60vh;
         border-radius: 1%;
     }
 
@@ -614,7 +638,7 @@ p {
 
     .ul-primeirocard {
         font-size: 1em;
-        line-height: 1.5em;
+        line-height: 1em;
     }
 
     .image {
@@ -633,6 +657,14 @@ p {
     .secao-card {
         margin: 20px;
 
+    }
+
+    .h2-textcard{
+        font-size: 0.8em;
+    }
+
+    .text-card{
+        line-height: 2em;
     }
 
     .primeira-img {
