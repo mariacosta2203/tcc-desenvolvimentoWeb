@@ -335,7 +335,7 @@ margin-top: 2rem;
     font-weight: 100;
   }
 
-@media(max-width:768px){
+@media(max-width:375px){
     body{
         font-size: 1rem;
         
@@ -345,42 +345,48 @@ margin-top: 2rem;
         display: grid;
         grid-template-columns: 100%;
         grid-template-rows: repeat(3,1fr);
+       
+
     }
 
     .ttl{
         text-align: center;
-        font-size: 4rem;
+        font-size: 3rem;
         grid-row: 1/2;
-        margin-left: 3rem;
+       margin-left: 1rem;
     }
 
     .txt{
         margin-top: 2rem;
         
-        grid-row:3/4 ;
+        grid-row:2/3 ;
         font-size: 1.5rem;
         text-align: center;
-        margin-left: 3rem;
+        margin-left: 5rem;
+
     }
 
         .img2{
-     margin-left: 7rem;
-            width: 35rem;
-        height: 20rem;
+     
+          margin-left: 2rem;
+            width: 20rem;
+        height: 10rem;
         }
 
         .conteudo1{
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: repeat(2,1fr);
+        grid-template-rows: (1,1fr);
+        margin: bottom 10rem;: ;
         }
 
         
         .img3{
-          margin-left: 7rem;
-            width: 35rem;
-        height: 20rem;
+          margin-left: 5rem;
+            width: 15rem;
+        height: 10rem;
         grid-row: 1/2;
+        
         }
 
         .txt{
@@ -388,6 +394,7 @@ margin-top: 2rem;
           font-size: 1.5rem;
           text-align: center;
           margin-left: 3rem;
+          grid-row: 2/3;
       }
 
 
@@ -396,12 +403,12 @@ margin-top: 2rem;
       }
       
       .addimg{
-        width: 45rem;
+        width: 20rem;
       }
 
 .item{
   text-align: center;
-  width: 48rem;
+  width: 23rem;
 }
 
 
@@ -418,9 +425,9 @@ margin-top: 2rem;
 
 
 .img4{
-  margin-left: 7rem;
-            width: 35rem;
-        height: 20rem;
+  margin-left: 2rem;
+            width: 20rem;
+        height: 15rem;
         grid-row: 1/2;
 }
 
@@ -447,13 +454,16 @@ margin-top: 2rem;
 }
 
 .img5{
-  width: 45rem;
-  margin-left: 1rem;
+  width: 20rem;
+  height: 15rem;
+  margin-left: 2rem;
 }
 
 
 .img6{
-  width: 45rem;
+  width: 20rem;
+  height: 15rem;
+  margin-left: 2rem;
 }
 
 
@@ -471,13 +481,18 @@ margin-top: 2rem;
         margin-bottom:4rem ;
         margin-right: 6rem;
     }
+.imgfacul{
+  margin-left: 2rem;
+}
+
+
     .img7{
         
         width: 20rem;
     height: 15rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    margin-left: 5rem;
+    margin-right: 10rem;
     }
 
     .img8{
@@ -485,10 +500,12 @@ margin-top: 2rem;
     height: 15rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    margin-left: 5rem;
+    margin-right: 5rem;
     }
     .img9{
-        
+      width: 20rem;
+      height: 15rem;
+      
         margin-top: 1rem;
         margin-bottom: 1rem;
     }
