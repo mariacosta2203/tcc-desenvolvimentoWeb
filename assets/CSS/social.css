@@ -32,6 +32,8 @@ header {
     text-align: center;
 }
 
+
+
 #headerLogo {
     display: flex;
     align-items: start;
@@ -550,7 +552,7 @@ p {
     color: var(--color-neutral-40);
 }
 
-@media(max-width: 768px) {
+@media (max-width: 1024px) {
 
     #descricaoUm {
         width: auto;
@@ -638,7 +640,7 @@ p {
 
     .ul-primeirocard {
         font-size: 1em;
-        line-height: 1em;
+        line-height: 1.5em;
     }
 
     .image {
@@ -652,8 +654,8 @@ p {
 
     .image {
         height: 50vh;
-    }
 
+    }
     .secao-card {
         margin: 20px;
 
@@ -664,7 +666,7 @@ p {
     }
 
     .text-card{
-        line-height: 2em;
+        line-height: 1em;
     }
 
     .primeira-img {
@@ -681,6 +683,18 @@ p {
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .navbar-toggler{
+        margin: 0px;
+    }
+
+    .navbar{
+        padding-top: -2em;
+    }
+
+    .container-fluid{
+        padding-top: -5em;
     }
 
 }
