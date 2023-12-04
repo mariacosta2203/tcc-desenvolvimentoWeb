@@ -39,7 +39,7 @@ header {
     padding-top: 1%;
 }
 
-.navbar{
+.navbar {
     background-color: var(--color-neutral-10);
 }
 
@@ -71,43 +71,44 @@ header {
     width: 700vw;
 }
 
-.video-capa{
+.video-capa {
     width: 100%;
 }
 
-.card{
+.card {
     padding: 1em;
     margin: auto;
     width: 80vw;
 }
 
-.card-title{
+.card-title {
     text-align: center;
     font-family: 'Adobe';
     font-size: 3em;
     font-weight: bold;
 }
 
-.card-text, p{
+.card-text,
+p {
     padding-top: 1em;
     font-family: 'Adobe';
     font-size: 1.5em;
     line-height: 1.5em;
 }
 
-.ul-primeirocard{
+.ul-primeirocard {
     font-family: 'Adobe';
     font-size: 1.5em;
     line-height: 1.5em;
 }
 
-.p-primeirocard{
+.p-primeirocard {
     color: var(--color-neutral-40);
     font-weight: bold;
     font-size: 2em;
 }
 
-.img-fluid{
+.img-fluid {
     width: 30vw;
     height: 80vh;
     border-radius: 1%;
@@ -115,29 +116,30 @@ header {
 
 /* Card que vira*/
 
-.card-cont{
-	margin: 0;
+.card-cont {
+    margin: 0;
 }
 
-.linha-card{
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-    
+.linha-card {
+    margin-left: 8em;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80vw;
 }
 
-.image{
-	background: var(--color-neutral-30);
-	position: relative;
-	flex: 1;
-	max-width: 460px;
-	height: 30em;
-	margin: 20px;
-	overflow: hidden;
+.image {
+    background: var(--color-neutral-30);
+    position: relative;
+    flex: 1;
+    max-width: 460px;
+    height: 30em;
+    margin: 20px;
+    overflow: hidden;
     border-radius: 2%;
 }
 
-.primeira-img{
+.primeira-img {
     height: 55vh;
 }
 
@@ -146,167 +148,167 @@ header {
     height: 60vh;
 } */
 
-.image img{
-	opacity: 0.8;
-	position: relative;
-	vertical-align: top;
-	transition: 0.6s;
-	transition-property: opacity;
+.image img {
+    opacity: 0.8;
+    position: relative;
+    vertical-align: top;
+    transition: 0.6s;
+    transition-property: opacity;
 }
 
-.image:hover img{
-	opacity: 1;
+.image:hover img {
+    opacity: 1;
 }
 
-.image .details{
-	z-index: 1;
-	position: absolute;
-	top: 0;
-	right: 0;
-	color: var(--color-neutral-10);
-	width: 100%;
-	height: 100%;
-    
+.image .details {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: var(--color-neutral-10);
+    width: 100%;
+    height: 100%;
+
 }
 
-.image .details h2{
-	text-align: center;
-	font-size: 35px;
-	text-transform: uppercase;
-	font-weight: 300;
-	margin-top: 70px;
-	transition: 0.4s;
-	transition-property: transform;
+.image .details h2 {
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-top: 70px;
+    transition: 0.4s;
+    transition-property: transform;
     color: var(--color-neutral-10)
 }
 
-.image .details h2 span{
-	font-weight: 900;
+.image .details h2 span {
+    font-weight: 900;
     font-family: 'Adobe';
 }
 
-.image:hover .details h2{
-	transform: translateY(-30px);
+.image:hover .details h2 {
+    transform: translateY(-30px);
 }
 
-.image .details li{
-	margin: 30px 30px 0 30px;
-	font-size: 1.5em;
-	font-weight: 600;
-	text-align: center;
-	opacity: 0;
-	transition: 0.6s;
-	transition-property: opacity, transform;
+.image .details li {
+    margin: 30px 30px 0 30px;
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align: center;
+    opacity: 0;
+    transition: 0.6s;
+    transition-property: opacity, transform;
     list-style: none;
     padding-top: 5%;
     color: var(--color-neutral-10)
 }
 
-.image:hover .details li{
-	opacity: 1;
-	transform: translateY(-40px);
+.image:hover .details li {
+    opacity: 1;
+    transform: translateY(-40px);
 }
 
-.more{
-	position: absolute;
-	background: var(--color-neutral-10);
-	width: 100%;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 15px;
-	bottom: -60px;
-	transition: 0.6s;
-	transition-property: bottom;
+.more {
+    position: absolute;
+    background: var(--color-neutral-10);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    bottom: -60px;
+    transition: 0.6s;
+    transition-property: bottom;
 }
 
-.image:hover .more{
-	bottom: 0;
+.image:hover .more {
+    bottom: 0;
 }
 
 /* Aqui acaba o card que vira */
 
 /* começo do carrosel */
 
-.swiper{
+.swiper {
     width: 100%;
-  }
+}
 
-  .h2-estudantes{
+.h2-estudantes {
     padding-top: 2em;
     padding-bottom: 2em;
     text-align: center;
     font-family: 'Adobe';
     font-size: 2.5em;
     font-weight: bold;
-  }
-  
-  .swiper-wrapper{
+}
+
+.swiper-wrapper {
     width: 100%;
     height: 35em;
     display: flex;
     align-items: center;
-  }
-  
-  .cardi{
+}
+
+.cardi {
     width: 20em;
     height: 90%;
     background-color: #fff;
     border-radius: 2em;
     box-shadow: 0 0 2em rgba(0, 0, 0, .2);
     padding: 2em 1em;
-  
+
     display: flex;
     align-items: center;
     flex-direction: column;
-  
+
     margin: 0 2em;
-  }
-  
-  .swiper-slide:not(.swiper-slide-active){
+}
+
+.swiper-slide:not(.swiper-slide-active) {
     filter: blur(0.1em);
-  }
-  
-  .cardi__image{
+}
+
+.cardi__image {
     width: 10em;
     height: 10em;
     border-radius: 50%;
     border: 5px solid var(--color-neutral-40);
     padding: 3px;
     margin-bottom: 2em;
-  }
-  
-  .cardi__image img{
+}
+
+.cardi__image img {
     width: 100%;
     height: 100%;
     border-radius: 50%;
     object-fit: cover;
-  }
-  
-  .cardi__content{
+}
+
+.cardi__content {
     display: flex;
     align-items: center;
     flex-direction: column;
-  }
-  
-  .cardi__title{
+}
+
+.cardi__title {
     font-size: 1.5rem;
     font-weight: 500;
     position: relative;
     top: .2em;
-  }
-  
-  .cardi__name{
+}
+
+.cardi__name {
     color: var(--color);
-  }
-  
-  .cardi__text{
+}
+
+.cardi__text {
     text-align: center;
     font-size: 1.1rem;
     margin: 1em 0;
-  }
-  
-  .cardi__btn{
+}
+
+.cardi__btn {
     background-color: var(--color);
     color: #fff;
     font-size: 1rem;
@@ -317,7 +319,7 @@ header {
     border-radius: .5em;
     margin-top: .5em;
     cursor: pointer;
-  }
+}
 
 /* termina carrosel */
 .h1-primeiro {
@@ -326,26 +328,27 @@ header {
 
 /* COMEÇO SEGUNDO CARD */
 
-.h2-segundocard{
-padding-top: 1em;
+.h2-segundocard {
+    padding-top: 1em;
 }
 
-.icone-linha{
+.icone-linha {
     color: var(--color-neutral-40);
     margin-right: 0.5em;
 }
 
-.li-segundocard{
+.li-segundocard {
     padding-top: 1em;
     list-style: none;
     line-height: 3em
 }
 
-#img-segundocard{
+#img-segundocard {
     width: 30vw;
     height: 70vh;
-    
+
 }
+
 /* TERMINA SEGUNDO CARD */
 
 /* BOTÃO DO SEGUNDO CARD */
@@ -358,38 +361,38 @@ padding-top: 1em;
     border-radius: 100vw;
     cursor: pointer;
     transition: background-color 250ms;
-  
+
     position: relative;
     isolation: isolate;
     overflow: hidden;
-  }
-  
-  .botao-inscrever:hover,
-  .botao-inscrever:focus-visible {
+}
+
+.botao-inscrever:hover,
+.botao-inscrever:focus-visible {
     background: var(--color-neutral-40);
-  }
-  
-  .botao-inscrever > span {
+}
+
+.botao-inscrever>span {
     position: absolute;
     z-index: -1;
     width: 33.333%;
     height: 100%;
-  
+
     background: transparent;
     opacity: 0.5;
-  }
-  
-  .botao-inscrever > :first-child {
+}
+
+.botao-inscrever> :first-child {
     left: 0;
     top: 0;
-  }
-  
-  .botao-inscrever > :last-child {
+}
+
+.botao-inscrever> :last-child {
     right: 0;
     top: 0;
-  }
-  
-  .botao-inscrever::before {
+}
+
+.botao-inscrever::before {
     content: "";
     position: absolute;
     z-index: -1;
@@ -401,36 +404,36 @@ padding-top: 1em;
     inset: 0;
     margin: auto;
     opacity: 0;
-  
+
     transition: transform 1000ms 200ms, opacity 200ms;
-  }
-  
-  .botao-inscrever:active::before {
+}
+
+.botao-inscrever:active::before {
     transform: scale(20);
     opacity: 1;
-  
-    transition: transform 1000ms, opacity 500ms;
-  }
-  
-  .botao-inscrever:has(:first-child:active)::before {
-    margin-left: 0;
-  }
-  
-  .botao-inscrever:has(:last-child:active)::before {
-    margin-right: 0;
-  }
-  
-  .botao-inscrever:has(:first-child:active)::before,
-  .botao-inscrever:has(:last-child:active)::before {
-    transition: transform 500ms, opacity 250ms;
-  }
 
-  .link-forms{
+    transition: transform 1000ms, opacity 500ms;
+}
+
+.botao-inscrever:has(:first-child:active)::before {
+    margin-left: 0;
+}
+
+.botao-inscrever:has(:last-child:active)::before {
+    margin-right: 0;
+}
+
+.botao-inscrever:has(:first-child:active)::before,
+.botao-inscrever:has(:last-child:active)::before {
+    transition: transform 500ms, opacity 250ms;
+}
+
+.link-forms {
     text-decoration: none;
     font-family: 'Adobe';
     font-size: 1em;
     color: var(--color-neutral-30);
-  }
+}
 
 /* TERMINA BOTÃO DO SEGUNDO CARD */
 
@@ -555,14 +558,20 @@ padding-top: 1em;
         padding-top: 1rem;
     }
 
-    
+    .linha-card {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 90vw;
+    }
 
-    .p-primeirocard{
+    .p-primeirocard {
         font-size: 1.5em;
     }
 
-    .details{
-        height: 15vh;
+    .details {
+        height: 10vh;
     }
 
     .listaFooter {
@@ -584,58 +593,58 @@ padding-top: 1em;
         padding-bottom: 2.5em;
     }
 
-    .img-fluid{
+    .img-fluid {
         width: 90vw;
         height: 50vh;
         border-radius: 1%;
     }
 
-    .card-title{
+    .card-title {
         text-align: center;
         font-family: 'Adobe';
         font-size: 2em;
         font-weight: bold;
     }
 
-    .card-text, p{
+    .card-text,
+    p {
         font-size: 1em;
         line-height: 1.5em;
     }
 
-    .ul-primeirocard{
+    .ul-primeirocard {
         font-size: 1em;
         line-height: 1.5em;
     }
 
-    .image{
-		flex: 100%;
-		max-width: 480px;
-	}
+    .image {
+        flex: 100%;
+        max-width: 480px;
+    }
 
-    .image .details li{
-		font-size: 18px;
-	}
+    .image .details li {
+        font-size: 18px;
+    }
 
-    .image{
+    .image {
         height: 50vh;
     }
 
-    .secao-card{
+    .secao-card {
         margin: 20px;
-        
+
     }
 
-    .primeira-img{
+    .primeira-img {
         height: 50vh;
     }
 
-    #img-segundocard{
+    #img-segundocard {
         width: 90vw;
         height: 40vh;
-        
     }
 
-    button{
+    button {
         margin: 2.5em;
         display: flex;
         justify-content: center;
