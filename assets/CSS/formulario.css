@@ -1,3 +1,23 @@
+@font-face {
+    font-family: 'Dourado';
+    src: url('../fontes/pretaportercontrast-bold.ttf') format(truetype);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Adobe';
+    src: url('../fontes/adobe-caslon-regular.otf') format(truetype);
+    font-weight: normal;
+}
+
+:root {
+    --color-neutral-0: #023c63;
+    --color-neutral-10: #003152;
+    --color-neutral-30: #fff;
+    --color-neutral-40: #ff9f1c;
+    --color-neutral-50: #ff9f1c;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -7,22 +27,35 @@ main{
     background-color: #023C63;
     display: grid;
     justify-content: center; /* Talvez precise mudar */
-    height: 100%;
+    height: 90%;
     width: 60vw;
     padding: auto;
     margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
     border-radius: 20px;
     color: white;
 }
 
+/* HEADER INICIO */
+
+
+
+/* HEADER FINAL */
+/* 
 div{
     display: grid;
     justify-content: center;
-}
+} */
 
 img{
-    width: 25rem;
+    width: 15rem;
+    padding-bottom: 2%;
 }
+
+/* .formulario-secao{
+    margin-bottom: 2%;
+} */
 
 form{
     display: grid;
@@ -102,6 +135,10 @@ option{
     border-radius: 40px;
 }
 
+/* FOOTER INICIO */
+
+/* FOOTER FINAL */
+
 @media(max-width: 768px) {
     *{
         font-size: 0.8rem;
@@ -167,6 +204,11 @@ option{
     .ajustarTela{
         justify-self: start;
     }
+
+    #formulario-secao{
+        padding-top: 3%;
+    }
+    
   }
 
   @media(max-width: 1446px){
