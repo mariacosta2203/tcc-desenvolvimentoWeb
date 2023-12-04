@@ -335,7 +335,7 @@ margin-top: 2rem;
     font-weight: 100;
   }
 
-@media(max-width:375px){
+@media(max-width:768px){
     body{
         font-size: 1rem;
         
@@ -368,9 +368,9 @@ margin-top: 2rem;
 
         .img2{
      
-          margin-left: 2rem;
-            width: 20rem;
-        height: 10rem;
+          margin-left: 7rem;
+            width: 35rem;
+        height: 20rem;
         }
 
         .conteudo1{
@@ -383,8 +383,8 @@ margin-top: 2rem;
         
         .img3{
           margin-left: 5rem;
-            width: 15rem;
-        height: 10rem;
+            width: 40rem;
+        height: 30rem;
         grid-row: 1/2;
         
         }
@@ -408,7 +408,7 @@ margin-top: 2rem;
 
 .item{
   text-align: center;
-  width: 23rem;
+  width: 48rem;
 }
 
 
@@ -425,7 +425,7 @@ margin-top: 2rem;
 
 
 .img4{
-  margin-left: 2rem;
+  margin-left: 14rem;
             width: 20rem;
         height: 15rem;
         grid-row: 1/2;
@@ -456,14 +456,14 @@ margin-top: 2rem;
 .img5{
   width: 20rem;
   height: 15rem;
-  margin-left: 2rem;
+  margin-left: 15rem;
 }
 
 
 .img6{
   width: 20rem;
   height: 15rem;
-  margin-left: 2rem;
+  margin-left: 15rem;
 }
 
 
@@ -492,7 +492,7 @@ margin-top: 2rem;
     height: 15rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    margin-right: 10rem;
+    margin-left: 12rem;
     }
 
     .img8{
