@@ -7,7 +7,7 @@ main{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
-    margin: auto;
+    margin: 0;
     margin-top: 10px;
     margin-bottom: 10px;
     width: 90%;
@@ -23,13 +23,17 @@ main{
     justify-content: center;
     font-weight: 400;
     height: 100vh;
-    border: 1px solid #003152;
 }
 
 .child-acomodacao{
     padding: 1.2em;
+    padding-right: 1rem;
 }
 
+.services-title {
+    margin-top: -1.5rem;
+    font-size: 2.5rem;
+}
 
 #opcao-acomodacao{
     display: grid;
