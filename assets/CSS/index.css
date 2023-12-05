@@ -27,14 +27,14 @@ main {
   margin: 0;
 }
 
-.navbar {
-  position: fixed;
+.navbar{
+  background-color: var(--color-neutral-10);
 }
 
 .image-header {
   width: 50%;
   position: absolute;
-  padding-top: 29%;
+  padding-top: 15%;
 }
 
 .container-fluid {
@@ -56,6 +56,8 @@ main {
 
 .navbar-toggler {
   color: var(--color-neutral-30);
+  width: 20vw;
+  border: 0;
 }
 
 #ativo-link {
@@ -112,7 +114,19 @@ main {
   justify-content: center;
   min-height: 70vh;
 }
+.grupo-avaliacao {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 4em;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+  background: #003152;
+}
+.grupo-avaliacao h2 {
+  color: #FF9F1C;
 
+}
 .logo {
   width: 160px;
   margin-top: -10px;
@@ -169,6 +183,7 @@ button:hover {
   transition: 0.7s;
 }
 
+
 .card {
   position: relative;
   width: 270px;
@@ -176,6 +191,14 @@ button:hover {
   background: #fff;
   border-radius: 20px;
   box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
+  margin: 30px;
+  height: 43em;
+}
+
+.maps {
+  height: 35%;
+  width: 80%;
+  border-radius: 15px;
   margin: 30px;
 }
 
@@ -234,23 +257,35 @@ button:hover {
 .card .content .detalhes .data {
   display: flex;
   justify-content: space-between;
-  margin: 20px 0;
-  padding-top: 10px;
+  justify-content: top;
+  margin-bottom: 100px;
+  padding-top: 30rem;
+  font-size: 1.3em;
 }
 
 .card .content .detalhes .data p {
+  font-family: 'adobe';
   font-size: 1em;
-  color: #555;
-  line-height: 1.2em;
+  color: black;
+  line-height: 1em;
   font-weight: 600;
+  margin-top: 100px;
+  padding-top: 100px;
+}
+.card-text {
+  font-family: 'adobe';
+  font-size: 1.2em;
+  color: black;
 }
 
 .card .content .detalhes .actionBtn {
   display: flex;
   justify-content: center;
+  
 }
 
 .card .content .detalhes .actionBtn button {
+  font-family: 'adobe';
   padding: 10px 30px;
   border-radius: 5px;
   border: none;
@@ -258,7 +293,7 @@ button:hover {
   font-size: 1em;
   font-weight: 500;
   background: #003152;
-  color: #fff;
+  color: #ff9f1c;
   cursor: pointer;
 }
 
@@ -272,7 +307,15 @@ button:hover {
   justify-content: center;
   background: #003152;
 }
-
+.h1-avaliacao{
+  color: #FF9F1C;
+  font-family: 'adobe';
+  display: flex;
+  justify-content: center;
+  background: #003152;
+  margin: 0;
+  padding-top: 1rem;
+}
 #div-texto-avaliacao {
   margin: 0;
   width: 65vw;
@@ -305,16 +348,25 @@ button:hover {
 
 /* CARROSEL */
 
+@media screen {
+  
+}
+
 .carousel {
-  display: flex;
-  justify-content: center;
+  width: 70%;
   padding-top: 2rem;
   padding-bottom: 2rem;
-
+  margin-right: 20%;
+  margin-left: 15%;
 }
 .carousel img {
-  max-width: 50rem;
-  height: 30rem;
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  max-height: 500px;
+  max-width: 90%;
+  border-radius: 30px;
+  margin-left: 5%;
 }
 
 /* Footer */
@@ -323,9 +375,10 @@ button:hover {
   background-color: #003152;
 }
 
-/* .container text-center {
+.container text-center {
   background-color: #003152;
-} */
+}
+
 
 .imgfooter {
   padding-top: 8%;
@@ -339,6 +392,7 @@ button:hover {
 }
 
 .footerP {
+  /* font-family: 'Dourado'; */
   padding-top: 5%;
   color: var(--color-neutral-40);
   font-size: 1.5rem;
@@ -348,6 +402,7 @@ button:hover {
 .listaFooter {
   list-style: none;
   line-height: 3rem;
+  /* font-family: 'Adobe'; */
 }
 
 .a-mapaSite {
@@ -361,6 +416,8 @@ button:hover {
 }
 
 #iconsFooter {
+  /* display: flex;
+  justify-content: center; */
   padding-top: 10rem;
   width: 3em;
   margin-left: 2rem;
@@ -392,11 +449,11 @@ button:hover {
   width: 20%;
 }
 
-.a-icones i {
+.a-icones i{
   font-size: 2.2rem;
 }
 
-.fa-brands {
+.fa-brands{
   width: 5rem;
   padding-top: 8rem;
 
@@ -416,37 +473,65 @@ button:hover {
 
 @media(max-width: 768px) {
 
-  * {
-    margin: 0;
+  #descricaoUm {
+      width: auto;
+
   }
 
-  .h1-excursao {
-    margin: 0;
-    padding-top: 2rem;
-    text-align: center;
+  #secaoUm {
+      display: grid;
   }
 
-  .paragrafo-avaliacao {
-    font-size: 1rem;
-    color: var(--color-neutral-30);
+  #iconesUm {
+      width: 100vw;
+  }
+
+  .imagensQuartoUm {
+      height: 10rem;
+
+  }
+
+  #secaoImagensAnuncio {
+      padding-top: 4rem;
   }
 
   .listaFooter {
-    text-align: center;
-    width: 90vw;
+      text-align: center;
+      width: 90vw;
   }
 
   .img-footer {
-    padding-top: 5%;
-    padding-bottom: 8%;
-    width: 9%;
+      padding-top: 5%;
+      padding-bottom: 8%;
+      width: 9%;
   }
 
   .paragrafoFooter {
-    padding-top: 5%;
+      padding-top: 5%;
   }
 
-  .fa-brands {
-    width: 5rem;
+  .fa-brands{
+      padding-bottom: 2.5em;
+  }
+
+  #divSecaoImagem {
+      width: 100%;
+      height: 23rem;
+      position: relative;
+      display: flex;
+      overflow: auto;
+      scroll-snap-type: x mandatory;
+  }
+
+  #divSecaoImagem .imgCarousel {
+      width: 100%;
+      height: 100%;
+      position: sticky;
+      left: 0;
+      flex-shrink: 0;
+      object-fit: cover;
+      scroll-behavior: smooth;
+      opacity: 1;
+      transform: none;
   }
 }
