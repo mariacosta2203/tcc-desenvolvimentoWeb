@@ -22,7 +22,7 @@ main{
     grid-template-rows: repeat(2, 1fr);
     justify-content: center;
     font-weight: 400;
-    height: 80vh;
+    height: 100vh;
     border: 1px solid #003152;
 }
 
