@@ -24,7 +24,7 @@
 }
 
 body{
-    background-color: 	#122549;
+    background-color: #479bd8;
     display: grid;
     height: 100vh;
 }
@@ -55,7 +55,8 @@ img{
 h3{
     font-family: "Adobe";
     justify-self: center;
-    font-size: 1.8em;
+    padding-top: 5%;
+    font-size: 2.5em;
 }
 
 #cadastro{

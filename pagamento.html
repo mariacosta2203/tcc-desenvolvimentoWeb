@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/CSS/stiloTeste.css">
+    <link rel="stylesheet" href="./assets/CSS/pagamento.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <main>
+        <div id="info-acomodacao">
+            <div class="child-acomodacao">
+                <h3 id="primeiroTitulo-acomodacao">Informações sobre a acomodação</h3>
+                <h4 id="primeiroSubTitulo-acomodacao">Suíte Frente Mar</h4>
+                <section>
+                    <p>Preço para: <img src="./assets/IMG/formulario/pessoa-acomodacao.png" alt=""></p>
+                    <p class="ajustarTexto"><img src="./assets/IMG/formulario/ 1.png" alt=""> 1 cama King Size</p>
+                    <p class="ajustarTexto">Tamanho:  32 m²</p>
+                    <p class="ajustarTexto"><img src="./assets/IMG/formulario/carteira-com-cartao-de-fora (1) 1.png" alt=""> Pagar com antecedência</p>
+                    <p class="ajustarTexto"><img src="./assets/IMG/formulario/cafe 1.png" alt=""> Café da manhã incluido</p>
+                    <div class="ajustarTexto" id="opcao-acomodacao">
+                        <p><img src="./assets/IMG/formulario/wi-fi 1.png" alt=""> WiFi Grátis </p>
+                        <p><img src="./assets/IMG/formulario/ar-condicionado 1.png" alt=""> Ar-condicionador</p>
+                        <p class="ajustarTexto"><img src="./assets/IMG/formulario/banheira 1.png" alt=""> Banheiro privativo</p>
+                        <p class="ajustarTexto"><img src="./assets/IMG/formulario/monitor-de-tv 1.png" alt=""> TV de tela plana</p>
+                    </div>
+                    <p class="ajustarTexto"><img src="./assets/IMG/formulario/lampada-de-ideia 1.png" alt=""> Dicas: este quarto é maior que a maioria no Horizonte Dourado</p>
+                    <p class="ajustarTexto">Preço para 4 diárias</p>
+                    <p style="color: #FF9F1C;">R$ 1040</p>
+                    <p>Imposto e taxas incluídos</p>
+                </section>
+            </div>
+            <div class="child-acomodacao">
+                <h3>Serviços adicionais</h3>
+
+                <div class="servicosAdicionais">
+                    <p class="alinharTexto">Excursão Terrestre</p>
+                    <p class="alinharTexto">R$ 120,00</p>
+                    <input type="checkbox" name="" id="">
+                </div>
+                <div class="servicosAdicionais">
+                    <p class="alinharTexto">Passeio de Barco</p>
+                    <p class="alinharTexto">R$ 120,00</p>
+                    <input type="checkbox" name="" id="">
+                </div>
+                <div class="servicosAdicionais">
+                    <p class="alinharTexto">Serviço de mergulho</p>
+                    <p class="alinharTexto">R$ 120,00</p>
+                    <input type="checkbox" name="" id="">
+                </div>
+            </div>
+        </div>
+
+        <div id="info-pagamento">
+            <div class="pagamento-cont">
+                <h1 id="tituloPagamento">Confirme o seu pagamento</h1>
+                <div class="first-row">
+                    <div class="owner">
+                        <h3>Nome no Cartão</h3>
+                        <div class="input-field">
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="cvv">
+                        <h3>CVV</h3>
+                        <div class="input-field">
+                            <input type="password">
+                        </div>
+                    </div>
+                </div>
+                <div class="second-row">
+                    <div class="card-number">
+                        <h3>Número Cartão</h3>
+                        <div class="input-field">
+                            <input type="text">
+                        </div>
+                    </div>
+                </div>
+                <div class="third-row">
+                    <h3>Validade</h3>
+                    <div class="selection">
+                        <div class="date">
+                            <select name="months" id="months">
+                                <option value="Jan">Jan</option>
+                                <option value="Feb">Fev</option>
+                                <option value="Mar">Mar</option>
+                                <option value="Apr">Abr</option>
+                                <option value="May">Mai</option>
+                                <option value="Jun">Jun</option>
+                                <option value="Jul">Jul</option>
+                                <option value="Aug">Ago</option>
+                                <option value="Sep">Set</option>
+                                <option value="Oct">Out</option>
+                                <option value="Nov">Nov</option>
+                                <option value="Dec">Dez</option>
+                              </select>
+                              <select name="years" id="years">
+                                <option value="2023">2023</option>
+                                <option value="2024">2024</option>
+                                <option value="2025">2025</option>
+                                <option value="2026">2026</option>
+                                <option value="2027">2027</option>
+                                <option value="2028">2028</option>
+                              </select>
+                        </div>
+                        <div class="cards">
+                            <button type="button"><img class="imagenCard" src="mc.png" alt=""></button>
+                            <button type="button"><img class="imagenCard" src="vi.png" alt=""></button>
+                            <button type="button"><img class="imagenCard" src="pp.png" alt=""></button>
+                        </div>
+                    </div>    
+                </div>
+                <a id="botaoConfirmar" href="index.html">Confirmar pagamento</a>
+
+                <div id="valor">
+                    Valor total: R$ 1540
+                </div>
+                <h1 class="h1-adicione">Adicione suas observações</h1>
+                <textarea name="" id="" cols="40" rows="80"></textarea>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

@@ -126,6 +126,31 @@ p {
     font-size: 1em;
 }
 
+#h2-cortext{
+    color: var(--color-neutral-40);
+}
+
+#carddois-cor {
+    color: #FF9F1C;
+}
+
+#more-corcarddois{
+    background-color: var(--color-neutral-40);
+}
+
+#cardtres-cor{
+    color: var(--color-neutral-30);
+}
+
+#cardtres-licor{
+    font-size: 1.1em;
+    color: var(--color-neutral-30);
+}
+
+#cardtres-more{
+    background-color: #F7F7F2;
+}
+
 .text-card{
     font-size: 1em;
     line-height: 2em;
@@ -253,11 +278,11 @@ p {
 }
 
 .h2-estudantestext {
-    padding-top: 2em;
+    padding-top: 1.2em;
     padding-bottom: 2em;
     text-align: center;
     font-family: 'Adobe';
-    font-size: 2.5em;
+    font-size: 2.8em;
     font-weight: bold;
 }
 
