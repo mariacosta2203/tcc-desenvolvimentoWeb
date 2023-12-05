@@ -1,10 +1,36 @@
+@font-face {
+    font-family: 'Dourado';
+    src: url('../fontes/pretaportercontrast-bold.ttf') format(truetype);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Adobe';
+    src: url('../fontes/adobe-caslon-regular.otf') format(truetype);
+    font-weight: normal;
+}
+
+:root {
+    --color-neutral-0: #023c63;
+    --color-neutral-10: #003152;
+    --color-neutral-30: #fff;
+    --color-neutral-40: #ff9f1c;
+    --color-neutral-50: #ff9f1c;
+}
+
 *{
     margin: 0;
     padding: 0;
 }
 
+body{
+    background-color: 	#122549;
+    display: grid;
+    height: 100vh;
+}
+
 main{
-    background-color: #023C63;
+    background-color: var(--color-neutral-10);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     height: 50vh;
@@ -27,6 +53,7 @@ img{
 }
 
 h3{
+    font-family: "Adobe";
     justify-self: center;
     font-size: 1.8em;
 }
